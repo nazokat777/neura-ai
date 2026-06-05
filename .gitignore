@@ -15,3 +15,9 @@ next-env.d.ts
 *.log
 .env*
 dev.log
+
+# Test artefaktlar
+.playwright-mcp/
+.claude/
+/v1.png
+/vend.png
