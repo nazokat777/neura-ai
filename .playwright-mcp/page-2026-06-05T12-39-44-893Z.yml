@@ -1,0 +1,75 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Profil" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Profil
+    - generic [ref=e7]:
+      - generic [ref=e8]: Kognitiv profil
+      - heading "Sizning profilingiz" [level=2] [ref=e9]
+    - generic [ref=e11]:
+      - img [ref=e15]
+      - generic [ref=e16]:
+        - generic [ref=e17]: "0"
+        - generic [ref=e18]:
+          - generic [ref=e19]: Sinaps faolligi
+          - generic [ref=e20]: jami o'ynagan raundlar
+      - paragraph [ref=e21]: Har mintaqa shu mashqning oxirgi natijasidan yonadi. Sinaps faolligi — jami o'ynagan raundlaringiz (vizual metafora, tibbiy da'vo emas).
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: O'lchangan domenlar
+        - generic [ref=e26]: 00 / 05
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e31]: Diqqat
+          - paragraph [ref=e32]: —
+          - generic [ref=e34]: Hali o'lchanmagan
+        - generic [ref=e35]:
+          - generic [ref=e38]: Xotira
+          - paragraph [ref=e39]: —
+          - generic [ref=e41]: Hali o'lchanmagan
+        - generic [ref=e42]:
+          - generic [ref=e45]: Tezlik
+          - paragraph [ref=e46]: —
+          - generic [ref=e48]: Hali o'lchanmagan
+        - generic [ref=e49]:
+          - generic [ref=e52]: Tormozlanish
+          - paragraph [ref=e53]: —
+          - generic [ref=e55]: Hali o'lchanmagan
+        - generic [ref=e56]:
+          - generic [ref=e59]: Mantiq
+          - paragraph [ref=e60]: —
+          - generic [ref=e62]: Hali o'lchanmagan
+      - paragraph [ref=e65]: Har domen shu mashqning oxirgi natijasidan hisoblanadi. O'lchanmagan domen markazda turadi — soxta ball emas, hali ma'lumot yo'q.
+    - link "Miyangiz uchun reja Neyro-tavsiyalar →" [ref=e66] [cursor=pointer]:
+      - /url: /uz/recommendations/
+      - generic [ref=e67]:
+        - generic [ref=e68]: Miyangiz uchun reja
+        - generic [ref=e69]: Neyro-tavsiyalar
+      - generic [ref=e70]: →
+    - navigation [ref=e71]:
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link "Bugun" [ref=e74] [cursor=pointer]:
+            - /url: /uz/
+            - generic [ref=e75]: ◐
+            - generic [ref=e76]: Bugun
+        - listitem [ref=e77]:
+          - link "O'yinlar" [ref=e78] [cursor=pointer]:
+            - /url: /uz/games/
+            - generic [ref=e79]: ◍
+            - generic [ref=e80]: O'yinlar
+        - listitem [ref=e81]:
+          - link "Tahlil" [ref=e82] [cursor=pointer]:
+            - /url: /uz/insights/
+            - generic [ref=e83]: ◇
+            - generic [ref=e84]: Tahlil
+        - listitem [ref=e85]:
+          - link "Profil" [ref=e86] [cursor=pointer]:
+            - /url: /uz/profile/
+            - generic [ref=e87]: ◉
+            - generic [ref=e88]: Profil
+  - button "Open Next.js Dev Tools" [ref=e94] [cursor=pointer]:
+    - img [ref=e95]

@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Nebula Navigator" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Nebula Navigator
+      - button "Ovozni yoqish" [ref=e7] [cursor=pointer]: ✕
+    - generic [ref=e9]:
+      - text: Qanday o'ynaladi
+      - heading "Nebula Navigator" [level=2] [ref=e10]
+      - paragraph [ref=e11]: Yongan nishonlarni eslab qoling. Ular harakatlanadi — to'xtaganda qaysilari nishon edi, o'shalarni tanlang.
+      - paragraph [ref=e12]:
+        - generic [ref=e13]: ♥♥♥
+        - text: 3 joningiz bor — 3 marta xato qilsangiz o'yin tugaydi
+      - button "Tushundim, boshlash" [ref=e14] [cursor=pointer]
+  - alert [ref=e15]

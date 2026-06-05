@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Ikki qaror" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Ikki qaror
+    - generic [ref=e8]:
+      - text: Qanday o'ynaladi
+      - heading "Ikki qaror" [level=2] [ref=e9]
+      - paragraph [ref=e10]: Strelka qaysi tomonni ko'rsatsa, o'sha tomonni bosing — imkon qadar tez.
+      - paragraph [ref=e11]:
+        - generic [ref=e12]: ♥♥♥
+        - text: 3 joningiz bor — 3 marta xato qilsangiz o'yin tugaydi
+      - button "Tushundim, boshlash" [ref=e13] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]:
+    - img [ref=e20]

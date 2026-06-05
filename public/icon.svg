@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#06080F"/>
+  <g fill="none" stroke="#34E5D0" stroke-width="14" stroke-linecap="round">
+    <!-- neyron tuguni va shoxlari -->
+    <circle cx="256" cy="256" r="46" fill="#34E5D0" stroke="none"/>
+    <path d="M256 210 L256 120"/>
+    <circle cx="256" cy="104" r="20" fill="#34E5D0" stroke="none"/>
+    <path d="M298 230 L380 178"/>
+    <circle cx="394" cy="168" r="18" fill="#34E5D0" stroke="none"/>
+    <path d="M298 282 L378 330"/>
+    <circle cx="392" cy="340" r="18" fill="#34E5D0" stroke="none"/>
+    <path d="M214 282 L132 334"/>
+    <circle cx="118" cy="344" r="18" fill="#34E5D0" stroke="none"/>
+    <path d="M214 230 L134 182"/>
+    <circle cx="120" cy="172" r="18" fill="#34E5D0" stroke="none"/>
+    <path d="M256 302 L256 388"/>
+    <circle cx="256" cy="402" r="20" fill="#34E5D0" stroke="none"/>
+  </g>
+</svg>

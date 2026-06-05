@@ -1,0 +1,270 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  /* Confident, decisive deceleration (animate.md). No bounce/elastic. */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+html,
+body {
+  background-color: #06080f;
+  color: #eceff7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+  /* Mobil-birinchi: safe-area va overscroll nazorati */
+  overscroll-behavior-y: none;
+}
+
+/* Modular tipografiya shkalasi (§8) */
+@layer components {
+  .t-display {
+    @apply font-display italic font-light tracking-tightest leading-display;
+  }
+  .t-h1 {
+    font-size: clamp(2.4rem, 9vw, 3.4rem);
+  }
+  .t-h2 {
+    font-size: clamp(1.6rem, 6vw, 2.2rem);
+  }
+  /* Barcha ball/raqam tabular bo'lsin (§8) */
+  .num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+  }
+}
+
+/* ---- Motion (animate): faqat 2 yuqori-ta'sirli moment ---- */
+@layer utilities {
+  /* Entrance: fade + nozik ko'tarilish (transform/opacity, GPU) */
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  /* Signature reward: ishonchli pop */
+  @keyframes pop {
+    from {
+      opacity: 0;
+      transform: scale(0.94);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  /* Daraja o'zgarishi urg'usi (bir martalik nafas) */
+  @keyframes accent-pulse {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.08);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .animate-rise {
+    opacity: 0;
+    animation: rise 0.55s var(--ease-out-expo) forwards;
+  }
+  .animate-pop {
+    animation: pop 0.5s var(--ease-out-expo) forwards;
+  }
+  .animate-accent {
+    animation: accent-pulse 0.6s var(--ease-out-quart) forwards;
+  }
+
+  /* ---- O'yin "feel": ball/kombo/feedback (cinematic) ---- */
+  /* Stimul kirishi — tez, ishonchli */
+  @keyframes stim-in {
+    from {
+      opacity: 0;
+      transform: scale(0.9) translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  /* "+120" suzib chiqib so'nadi */
+  @keyframes float-up {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, 4px) scale(0.85);
+    }
+    25% {
+      opacity: 1;
+      transform: translate(-50%, -8px) scale(1.05);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -42px) scale(1);
+    }
+  }
+  /* Kombo nishoni urilishi */
+  @keyframes combo-pop {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    55% {
+      transform: scale(1.15);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  /* Butun ekran chetidan bir lahzalik nur (to'g'ri/xato) */
+  @keyframes edge-flash {
+    0% {
+      opacity: 0;
+    }
+    18% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* Vaqt chizig'i — to'liqdan nolga (timed mashqlar) */
+  @keyframes shrink-bar {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+
+  .animate-stim {
+    animation: stim-in 0.32s var(--ease-out-expo) forwards;
+  }
+  .animate-float {
+    animation: float-up 0.85s var(--ease-out-quart) forwards;
+  }
+  .animate-combo {
+    animation: combo-pop 0.34s var(--ease-out-quart) forwards;
+  }
+  .animate-edge {
+    animation: edge-flash 0.5s var(--ease-out-quart) forwards;
+  }
+
+  /* Doimiy nozik suzish (logo "tirik" tuyilsin) */
+  @keyframes float-soft {
+    0%,
+    100% {
+      transform: translateY(-6px);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+  }
+  .animate-float-soft {
+    animation: float-soft 5s ease-in-out infinite;
+  }
+
+  @keyframes spin-slow {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .animate-spin-slow {
+    animation: spin-slow 14s linear infinite;
+  }
+
+  /* Jonli gradient — matn/raqamlarда ko'k↔siyohrang silliq suzadi (WOW, lekin nozik) */
+  @keyframes grad-pan {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  .grad-anim {
+    background-size: 200% 200%;
+    animation: grad-pan 6s ease-in-out infinite;
+  }
+
+  /* Tugma yuzasidan o'tuvchi yorug'lik (sheen) */
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-130%) skewX(-18deg);
+    }
+    60%,
+    100% {
+      transform: translateX(260%) skewX(-18deg);
+    }
+  }
+  .shimmer-sheen::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 38%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.35),
+      transparent
+    );
+    animation: shimmer 3.6s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  /* Nafas — sekin kattalashib-kichrayadi (nur/halqalar uchun) */
+  @keyframes breathe {
+    0%,
+    100% {
+      transform: scale(1);
+      opacity: 0.55;
+    }
+    50% {
+      transform: scale(1.08);
+      opacity: 0.85;
+    }
+  }
+  .animate-breathe {
+    animation: breathe 4.5s ease-in-out infinite;
+  }
+}
+
+/* Klaviatura fokusi — brendlangan halqa (a11y) */
+:where(button, a, [tabindex]):focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #06080f, 0 0 0 4px #4d8dff;
+  border-radius: 0.5rem;
+}
+
+/* Zaif qurilma / reduced-motion hurmati (§7) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

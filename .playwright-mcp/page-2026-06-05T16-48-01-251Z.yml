@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Ismlar va Yuzlar" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Ismlar va Yuzlar
+      - button "Ovozni o‘chirish" [pressed] [ref=e7] [cursor=pointer]: ♪
+    - generic [ref=e9]:
+      - text: Qanday o'ynaladi
+      - heading "Ismlar va Yuzlar" [level=2] [ref=e10]
+      - paragraph [ref=e11]: Yuz va ismlarni bog'lab yodlang. So'ng 'Bu kim?' savoliga to'g'ri ismni tanlang.
+      - paragraph [ref=e12]:
+        - generic [ref=e13]: ♥♥♥
+        - text: 3 joningiz bor — 3 marta xato qilsangiz o'yin tugaydi
+      - button "Tushundim, boshlash" [ref=e14] [cursor=pointer]
+  - alert [ref=e15]

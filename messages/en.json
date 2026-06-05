@@ -1,0 +1,682 @@
+{
+  "common": {
+    "start": "Start",
+    "next": "Next",
+    "back": "Back",
+    "level": "Level",
+    "score": "Score",
+    "accuracy": "Accuracy",
+    "best": "Best",
+    "again": "Again",
+    "done": "Done",
+    "continue": "Continue",
+    "round": "Round",
+    "time": "Time",
+    "skip": "Skip",
+    "howToPlay": "How to play",
+    "understood": "Got it, start",
+    "livesNote": "You have 3 lives — the game ends after 3 mistakes"
+  },
+  "rules": {
+    "schulte": "Find the numbers in order, starting from 1. A found number vanishes and a bigger one appears. Find as many as you can before time runs out.",
+    "memory": "Memorize the lit cells, then tap them. Find them all correctly → next, harder stage.",
+    "stroop": "Ignore the color of the letters. Pick the color by the WORD's meaning (what it says). Be fast and accurate.",
+    "speed": "Tap the side the arrow points to — as fast as you can.",
+    "math": "Solve the problem and choose the correct answer. Fast and accurate.",
+    "sequence": "If the current cell matches the one a few steps back — press 'MATCH'. Working memory.",
+    "nebula": "Memorize the lit targets. They move — when they stop, pick which ones were targets.",
+    "audioMemory": "Memorize the sequence of sounds and repeat it in the same order.",
+    "names": "Link faces and names. Then answer 'Who is this?' with the correct name.",
+    "pictogram": "Memorize the shown symbols, then find them in the grid.",
+    "iq": "Find the rule in the number sequence and choose the next number.",
+    "crossword": "Build the word matching the clue from the letters, then check.",
+    "eyeHand": "Tap the lit cell as fast as you can — eye-hand coordination.",
+    "fingerDance": "Tap the lit panels fast and in the right order — finger speed.",
+    "palmClash": "Tap the lit side in rhythm — coordination.",
+    "neuroSync": "Tap the cell exactly on time — synchrony.",
+    "mirrorDraw": "Tap the lit cell and its mirrored (symmetric) twin.",
+    "focusShift": "Focus alternately on near and far points — eye exercise (no cognitive score).",
+    "rule202020": "Every 20 minutes look ~6 m (20 ft) away for 20 seconds — eye rest (no cognitive score).",
+    "figureEight": "Follow the dot with your eyes, drawing a figure 8 in the air — eye exercise (no cognitive score)."
+  },
+  "app": {
+    "name": "Neyron AI",
+    "tagline": "Improve Yourself Every Day"
+  },
+  "intro": {
+    "cta": "Start",
+    "p1": "Do you know yourself?",
+    "p2": "Do you know how much power and potential lies in your brain?",
+    "p3": {
+      "title": "Your brain is a muscle — it grows with you!",
+      "caption": "5 minutes a day and five science-based drills."
+    },
+    "p4": {
+      "title": "Only real results.",
+      "caption": "No fake claims."
+    },
+    "p5": {
+      "title": "Ready?",
+      "caption": "Start today."
+    }
+  },
+  "home": {
+    "title": "Today's goal",
+    "subtitle": "Train attention, memory, speed, focus and logic.",
+    "drills": "Drills",
+    "explore": "Categories",
+    "gamesTotal": "{n} games",
+    "greeting": "Hi, {name} 👋",
+    "honest": "We only show what we actually measured. No fake claims.",
+    "profileCta": "Cognitive profile"
+  },
+  "profile": {
+    "title": "Profile",
+    "kicker": "Cognitive profile",
+    "heading": "Your profile",
+    "measured": "Measured domains",
+    "level": "Level {n}",
+    "notMeasured": "Not measured yet",
+    "honest": "Each domain is computed from that drill's last result. An unmeasured domain sits at the center — not a fake zero, just no data yet."
+  },
+  "domains": {
+    "attention": "Attention",
+    "memory": "Memory",
+    "speed": "Speed",
+    "focus": "Inhibition",
+    "logic": "Logic"
+  },
+  "brain": {
+    "aria": "Cognitive brain map",
+    "synapses": "Synapse activity",
+    "synapsesSub": "total rounds played",
+    "synapsesHonest": "A visual metaphor — this is your real number of rounds played, not a biological measurement.",
+    "honest": "Each region lights up from that drill's last result. Synapse activity is your total rounds played (a visual metaphor, not a medical claim).",
+    "trains": "This section engages",
+    "system": {
+      "neocortex": "Neocortex",
+      "limbic": "Limbic system",
+      "cerebellum": "Cerebellum"
+    },
+    "region": {
+      "hippocampus": {
+        "name": "Hippocampus",
+        "note": "Center of new memory formation."
+      },
+      "frontoparietal": {
+        "name": "Fronto-parietal network",
+        "note": "The directed-attention network."
+      },
+      "prefrontal": {
+        "name": "Prefrontal cortex",
+        "note": "Logic, planning and decisions."
+      },
+      "sensorimotor": {
+        "name": "Sensorimotor area",
+        "note": "Processing speed and reaction."
+      },
+      "acc": {
+        "name": "Anterior cingulate / prefrontal",
+        "note": "Inhibition and error control."
+      },
+      "motorCerebellum": {
+        "name": "Motor cortex + cerebellum",
+        "note": "Movement and coordination."
+      },
+      "occipital": {
+        "name": "Occipital (visual) area",
+        "note": "Visual processing; eye comfort."
+      }
+    },
+    "discover": {
+      "kicker": "A journey into the brain",
+      "q": "Do you know yourself?",
+      "lead": "Your brain — power in chains.",
+      "structureTitle": "Brain structure",
+      "structureBody": "Your potential is still asleep.",
+      "cta": "Start the test",
+      "honest": "This is a simplified educational visualization, not a medical image."
+    }
+  },
+  "onboarding": {
+    "kicker": "Getting to know you",
+    "title": "About you",
+    "step": "{i} / {total}",
+    "next": "Next",
+    "back": "Back",
+    "finish": "Go to test",
+    "multiHint": "Select all that apply",
+    "honest": "These answers only personalize your recommendations. Not a medical diagnosis; data stays on your device.",
+    "q": {
+      "name": {
+        "q": "What's your name?",
+        "placeholder": "Enter your name"
+      },
+      "age": {
+        "q": "How old are you?",
+        "o": {
+          "a1": "Under 18",
+          "a2": "18–24",
+          "a3": "25–34",
+          "a4": "35–44",
+          "a5": "45+"
+        }
+      },
+      "work": {
+        "q": "What do you mostly do?",
+        "o": {
+          "student": "Studying",
+          "knowledge": "Knowledge work",
+          "manual": "Manual work",
+          "manager": "Leadership",
+          "other": "Other"
+        }
+      },
+      "concerns": {
+        "q": "What bothers you most?",
+        "o": {
+          "memory": "Forgetfulness",
+          "focus": "Distraction",
+          "speed": "Slow thinking",
+          "fatigue": "Fatigue",
+          "stress": "Stress"
+        }
+      },
+      "sleep": {
+        "q": "How much do you sleep?",
+        "o": {
+          "lt5": "Under 5h",
+          "h56": "5–6h",
+          "h78": "7–8h",
+          "gt8": "Over 8h"
+        }
+      },
+      "stress": {
+        "q": "Your stress level?",
+        "o": {
+          "low": "Low",
+          "mid": "Medium",
+          "high": "High"
+        }
+      },
+      "nutrition": {
+        "q": "How is your nutrition?",
+        "o": {
+          "poor": "Irregular",
+          "ok": "Average",
+          "good": "Healthy"
+        }
+      },
+      "goal": {
+        "q": "Why are you here?",
+        "o": {
+          "focus": "Sharper focus",
+          "memory": "Better memory",
+          "speed": "Faster thinking",
+          "habit": "Daily habit",
+          "curiosity": "Curiosity"
+        }
+      }
+    }
+  },
+  "drills": {
+    "schulte": "Schulte table",
+    "schulteDesc": "Find the numbers in order, as fast as you can.",
+    "memory": "Memory matrix",
+    "stroop": "Stroop test",
+    "speed": "Two-choice speed",
+    "math": "Quick math"
+  },
+  "schulte": {
+    "instruction": "Find in order from 1. The correct number vanishes — a new one appears in its place.",
+    "find": "Find {n}",
+    "timeUp": "Time's up!",
+    "found": "Found",
+    "levelUp": "Difficulty increased",
+    "levelDown": "Difficulty eased",
+    "levelSame": "Difficulty held"
+  },
+  "memory": {
+    "memorize": "Memorize the lit cells",
+    "recall": "Tap the cells you saw",
+    "cells": "{n} cells",
+    "rule": "Memorize the lit cells, then tap them. Find them all correctly → next, harder stage."
+  },
+  "stroop": {
+    "instruction": "Ignore the letter color — pick the color the WORD says.",
+    "trial": "{i} / {total}",
+    "names": {
+      "red": "RED",
+      "blue": "BLUE",
+      "green": "GREEN",
+      "yellow": "YELLOW",
+      "purple": "PURPLE",
+      "orange": "ORANGE",
+      "pink": "PINK",
+      "cyan": "CYAN"
+    }
+  },
+  "speed": {
+    "instruction": "Tap the side the arrow points to — fast!",
+    "left": "Left",
+    "right": "Right",
+    "tooSlow": "Too slow"
+  },
+  "math": {
+    "instruction": "Pick the correct answer.",
+    "trial": "{i} / {total}"
+  },
+  "sequence": {
+    "instruction": "If the current cell matches the one {n} steps back — press MATCH.",
+    "match": "MATCH",
+    "nBack": "{n}-back",
+    "nBackShort": "N-back"
+  },
+  "nebula": {
+    "instruction": "Memorize the highlighted targets. They will move — when they stop, pick which ones were targets.",
+    "memorize": "Memorize targets",
+    "track": "Track them",
+    "pick": "Pick {n} targets",
+    "reveal": "Result",
+    "confirm": "Confirm",
+    "caught": "Caught"
+  },
+  "motor": {
+    "hits": "Accurate taps",
+    "instr": {
+      "eyeHand": "Tap the lit cell as fast as you can",
+      "fingerDance": "Tap the lit pad fast — finger speed",
+      "palmClash": "Tap the lit side in rhythm",
+      "neuroSync": "Tap the cell on time — in sync",
+      "mirrorDraw": "Tap the lit cell and its mirror pair"
+    }
+  },
+  "recs": {
+    "kicker": "Neuro recommendations",
+    "title": "A plan for your brain",
+    "intro": "Tailored to your answers. Every recommendation is grounded in real neuroscience research.",
+    "sourceLabel": "Source",
+    "honest": "This is general scientific consensus, not personal medical advice. Sources are shown openly.",
+    "items": {
+      "sleep": {
+        "title": "Sleep consolidates memory",
+        "body": "Aim for 7–9 hours. Sleep consolidates what you learned during the day.",
+        "source": "Diekelmann & Born, 2010, Nature Reviews Neuroscience"
+      },
+      "exercise": {
+        "title": "Movement feeds the brain",
+        "body": "Aerobic exercise 3+ times a week benefits hippocampal volume and cognition.",
+        "source": "Hillman, Erickson & Kramer, 2008, Nature Reviews Neuroscience"
+      },
+      "nutrition": {
+        "title": "Brain food",
+        "body": "Omega-3 and a Mediterranean diet support cognitive health.",
+        "source": "Gómez-Pinilla, 2008, Nature Reviews Neuroscience"
+      },
+      "mental": {
+        "title": "Cognitive reserve",
+        "body": "Learning new skills and staying mentally active builds 'cognitive reserve'.",
+        "source": "Stern, 2009, Lancet Neurology"
+      },
+      "oxygen": {
+        "title": "Oxygen fuels the brain",
+        "body": "The brain uses ~20% of the body's energy. Fresh air, ventilation and deep breathing support attention.",
+        "source": "Raichle & Gusnard, 2002, PNAS"
+      },
+      "earlyWake": {
+        "title": "Wake early and consistently",
+        "body": "Waking at the same time strengthens your circadian rhythm, improving daytime focus and mood.",
+        "source": "Walker, 2017, Why We Sleep"
+      },
+      "training": {
+        "title": "The honest truth about training",
+        "body": "Practice improves the trained task; 'you'll get generally smarter' is not proven.",
+        "source": "Simons et al., 2016; Owen et al., 2010, Nature"
+      }
+    },
+    "harmsTitle": "What harms your brain",
+    "harms": {
+      "stress": {
+        "title": "Chronic stress",
+        "body": "Prolonged stress raises cortisol and damages the hippocampus, the memory center.",
+        "source": "McEwen, 2007, Physiological Reviews"
+      },
+      "sugar": {
+        "title": "Too much sugar",
+        "body": "A high-sugar diet lowers BDNF and hippocampal function, weakening learning.",
+        "source": "Gómez-Pinilla, 2008, Nature Reviews Neuroscience"
+      },
+      "sleepLoss": {
+        "title": "Staying up at night",
+        "body": "Sleep loss sharply reduces attention, memory and decision-making.",
+        "source": "Killgore, 2010, Progress in Brain Research"
+      },
+      "processed": {
+        "title": "Artificial / ultra-processed foods",
+        "body": "Higher ultra-processed food (UPF) intake is linked to faster cognitive decline.",
+        "source": "Gomes Gonçalves et al., 2023, JAMA Neurology"
+      }
+    }
+  },
+  "baseline": {
+    "kicker": "Baseline assessment",
+    "title": "Let's find your Point A",
+    "intro": "Play each drill once to measure where you are now. Your profile is built from these real results.",
+    "progress": "{done} / {total} measured",
+    "play": "Play",
+    "done": "Done",
+    "reveal": "Reveal my Point A",
+    "returnToTest": "Back to test",
+    "honest": "This is your Point A: your current, real measured state. Not a fake IQ number."
+  },
+  "result": {
+    "title": "Result",
+    "performance": "Performance",
+    "nextLevel": "Next level"
+  },
+  "recForYou": {
+    "kicker": "Recommended for you",
+    "body": "This is your weakest area in the latest measurement. The games below train exactly that.",
+    "noData": "Your point A isn't measured yet. Take the short test first — we'll match games to your result.",
+    "startTest": "Start test",
+    "honest": "Recommendations come only from real measured results. Not mandatory — you can pick any section."
+  },
+  "analysis": {
+    "kicker": "Brain analysis",
+    "title": "Your personal plan",
+    "intro": "A neuroscience approach: your test results and questionnaire answers analyzed together. Below are the areas that need the most attention.",
+    "noData": "To build a plan, fill in the questionnaire and take the short test first — I'll match exercises to your result.",
+    "startTest": "Start test",
+    "honest": "This is an adaptation based on measured results and your answers, not a medical diagnosis.",
+    "reason": {
+      "weak": "weaker on test",
+      "concern": "you flagged",
+      "goal": "your goal"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language"
+  },
+  "game": {
+    "combo": "Combo",
+    "score": "Score",
+    "maxCombo": "Best combo",
+    "stages": "Stage",
+    "gameOver": "Game over"
+  },
+  "streak": {
+    "short": "d",
+    "days": "Day streak",
+    "best": "Best"
+  },
+  "audio": {
+    "instruction": "Repeat the sequence of colors you heard.",
+    "listen": "Listen",
+    "repeat": "Repeat",
+    "recalled": "Recalled"
+  },
+  "names": {
+    "instruction": "Link faces and names to remember them.",
+    "memorize": "Memorize faces and names",
+    "whoIsThis": "Who is this?",
+    "matched": "Correct"
+  },
+  "pictogram": {
+    "instruction": "Memorize the symbols, then find them in the grid.",
+    "memorize": "Memorize the symbols",
+    "recall": "Pick the ones you saw",
+    "found": "Found"
+  },
+  "iq": {
+    "whichNext": "Which number is next?",
+    "solved": "Solved",
+    "honest": "This is a pattern-finding drill (fluid intelligence), not a population IQ."
+  },
+  "crossword": {
+    "clue": "Clue",
+    "check": "Check",
+    "solved": "Solved"
+  },
+  "vision": {
+    "start": "Start",
+    "again": "Again",
+    "done": "Done!",
+    "relax": "Your eyes have rested. You can continue now.",
+    "restLook": "Look 20 feet (~6 m) into the distance",
+    "near": "Look near",
+    "far": "Look far",
+    "traceFollow": "Follow the dot with your eyes (keep your head still)",
+    "honest": "This is an eye-comfort exercise (AAO recommendation). It does not give cognitive points or levels.",
+    "instr": {
+      "focusShift": "Shift your focus",
+      "rule202020": "20-20-20 rule",
+      "figureEight": "Figure eight"
+    },
+    "desc": {
+      "focusShift": "Alternate focus between near and far.",
+      "rule202020": "Every 20 minutes, look ~6 m (20 ft) away for 20 seconds.",
+      "figureEight": "Trace a figure-8 in the air with your eyes."
+    }
+  },
+  "nav": {
+    "today": "Today",
+    "games": "Games",
+    "insights": "Insights",
+    "profile": "Profile"
+  },
+  "games": {
+    "kicker": "Games hub",
+    "title": "Games",
+    "subtitle": "Science-based drills across cognitive domains. Each one sharpens one ability of the brain.",
+    "gameOfDay": "Game of the day",
+    "categories": "Sections",
+    "comingSoon": "Coming soon",
+    "play": "Start",
+    "open": "Open",
+    "back": "Back",
+    "allGames": "All games",
+    "scientificFact": "Scientific fact",
+    "areasTitle": "Key brain areas",
+    "scoreTitle": "Your score",
+    "scoreNote": "From your real measured result. Not measured yet — play the drill.",
+    "scoreEmpty": "not measured yet",
+    "honest": "Only working drills are playable. \"Coming soon\" means not ready yet — no fakes.",
+    "tier": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "cat": {
+      "memory": {
+        "name": "Memory",
+        "tagline": "Encoding, holding and recall",
+        "fact": "Working memory — the Baddeley & Hitch model (1974): the brain temporarily holds and manipulates information. Targeted practice raises holding capacity and accuracy.",
+        "source": "Baddeley & Hitch, 1974; Klingberg, 2010, Trends in Cognitive Sciences"
+      },
+      "attention": {
+        "name": "Attention",
+        "tagline": "Directed and sustained focus",
+        "fact": "Attention is not one thing — it spans alerting, orienting and executive-control networks (Posner & Petersen, 1990). Visual search trains directed attention.",
+        "source": "Posner & Petersen, 1990, Annual Review of Neuroscience"
+      },
+      "logic": {
+        "name": "Logic",
+        "tagline": "Fluid intelligence and problem-solving",
+        "fact": "Fluid intelligence (Gf) is the ability to solve novel problems without prior knowledge (Cattell, 1963). Logic drills engage this process.",
+        "source": "Cattell, 1963; Jaeggi et al., 2008, PNAS"
+      },
+      "speed": {
+        "name": "Speed",
+        "tagline": "Processing speed and reaction",
+        "fact": "Processing speed declines naturally with age (Salthouse, 1996), but rapid-decision drills sharpen reaction time.",
+        "source": "Salthouse, 1996, Psychological Review"
+      },
+      "focus": {
+        "name": "Inhibition",
+        "tagline": "Inhibition and interference control",
+        "fact": "The Stroop effect (1935) — inhibiting an automatic response — is a measure of executive control (Miyake et al., 2000). It is holding attention against interference.",
+        "source": "Stroop, 1935; Miyake et al., 2000, Cognitive Psychology"
+      },
+      "motor": {
+        "name": "Motor & Hands",
+        "tagline": "Fine movement and coordination",
+        "fact": "Complex finger movements activate the motor cortex and cerebellum; bimanual (two-hand) coordination trains cross-hemisphere communication.",
+        "source": "Doyon & Benali, 2005, Current Opinion in Neurobiology"
+      },
+      "vision": {
+        "name": "Eye Exercises",
+        "tagline": "Eye comfort and oculomotor practice",
+        "fact": "The 20-20-20 rule (every 20 minutes look ~6 m (20 ft) away for 20 seconds) is recommended to reduce digital eye strain. This is for eye comfort, not cognitive training.",
+        "source": "American Academy of Ophthalmology"
+      }
+    },
+    "item": {
+      "memory": {
+        "name": "Memory Matrix",
+        "desc": "Memorize the lit cells and recall them in order."
+      },
+      "sequence": {
+        "name": "Sequence",
+        "desc": "Repeat a chain of digits and letters — grow working-memory span."
+      },
+      "names": {
+        "name": "Names & Faces",
+        "desc": "Link people and names to remember them."
+      },
+      "audioMemory": {
+        "name": "Audio Memory",
+        "desc": "Reproduce the sequence of sounds you heard."
+      },
+      "pictogram": {
+        "name": "Pictograms",
+        "desc": "Memorize complex visual symbols and recall them."
+      },
+      "schulte": {
+        "name": "Schulte Table",
+        "desc": "Find the numbers in order as fast as you can."
+      },
+      "nebula": {
+        "name": "Nebula Navigator",
+        "desc": "Track several moving targets in space at once."
+      },
+      "math": {
+        "name": "Quick Math",
+        "desc": "Compute fast and accurately — sharpen logical speed."
+      },
+      "crossword": {
+        "name": "Cognitive Crossword",
+        "desc": "Find concepts and strengthen logical links."
+      },
+      "iq": {
+        "name": "Logic Sequences",
+        "desc": "Find the pattern and pick the next number."
+      },
+      "speed": {
+        "name": "Two Choices",
+        "desc": "Pick the arrow's direction fast — sharpen reaction."
+      },
+      "stroop": {
+        "name": "Stroop Test",
+        "desc": "Pick the color, not the word — interference-control drill."
+      },
+      "neuroSync": {
+        "name": "Neuro-Sync",
+        "desc": "Match finger movements to a rhythm — train motor control."
+      },
+      "fingerDance": {
+        "name": "Finger Dance",
+        "desc": "Run finger sequences fast — motor-cortex speed."
+      },
+      "mirrorDraw": {
+        "name": "Mirror Drawing",
+        "desc": "Draw a mirrored shape with both hands — two hemispheres."
+      },
+      "palmClash": {
+        "name": "Palm Clash",
+        "desc": "Rhythmic tactile coordination."
+      },
+      "eyeHand": {
+        "name": "Eye-Hand Coordination",
+        "desc": "Visual tracking and rapid hand movement."
+      },
+      "focusShift": {
+        "name": "Focus Shift",
+        "desc": "Alternate focus between near and far objects."
+      },
+      "rule202020": {
+        "name": "20-20-20 Rule",
+        "desc": "Every 20 minutes, look ~6 m (20 ft) away for 20 seconds."
+      },
+      "figureEight": {
+        "name": "Figure Eight",
+        "desc": "Trace a figure-8 in the air with your eyes — visual tracking."
+      }
+    },
+    "forYou": "For you",
+    "forYouReason": "Your weakest area — {domain}. Strengthen it.",
+    "sinceFirst": "since start"
+  },
+  "insights": {
+    "appName": "Neyron AI",
+    "kicker": "Results analysis",
+    "title": "Your cognitive state",
+    "indexLabel": "Neyron Index",
+    "indexHonest": "{n}/{total} domains measured. This is a score relative to yourself, not a population IQ.",
+    "noData": "No data yet. Play some drills to reveal your profile.",
+    "profile": "Cognitive profile",
+    "strength": "Your strength",
+    "strengthBody": "This domain scored highest in your last measurement. Keep going — a strength is a foundation.",
+    "recommended": "Recommended",
+    "ctaGames": "Games",
+    "ctaGamesSub": "Hub of all drills",
+    "ctaRecs": "Neuro-tips",
+    "ctaRecsSub": "A plan for your brain",
+    "honest": "Index and profile come only from really measured results. No fake numbers.",
+    "dom": {
+      "memory": "Memory",
+      "attention": "Attention",
+      "logic": "Logic",
+      "speed": "Speed",
+      "adapt": "Inhibition"
+    }
+  },
+  "postTest": {
+    "kicker": "Test complete",
+    "title": "Recommended for you",
+    "optional": "This is a suggestion, not required. Start it or skip.",
+    "start": "Start",
+    "skip": "Skip",
+    "next": "Continue"
+  },
+  "plan": {
+    "kicker": "Daily plan",
+    "title": "Exercise sequence",
+    "intro": "Ordered for your result — starting with your weakest area. Tap to play each.",
+    "play": "Play",
+    "resultsCta": "View my results",
+    "honest": "Order built only from really measured data. Not mandatory.",
+    "skip": "Skip",
+    "home": "Go to home"
+  },
+  "account": {
+    "kicker": "Account",
+    "title": "My results",
+    "weekly": "This week",
+    "monthly": "This month",
+    "rounds": "Exercises",
+    "activeDays": "Active days",
+    "avg": "Average",
+    "growth": "Growth",
+    "streakLabel": "Daily streak",
+    "noData": "No data yet. Play a few exercises — results will show here.",
+    "dangerTitle": "Danger zone",
+    "deleteBtn": "Delete account",
+    "deleteDesc": "All results, profile and settings will be permanently removed from this device. This cannot be undone.",
+    "confirmTitle": "Are you sure?",
+    "confirmBody": "All data will be deleted with no way to recover it.",
+    "confirmYes": "Yes, delete",
+    "confirmNo": "Cancel",
+    "honest": "Everything is stored only on this device (local). No server."
+  }
+}

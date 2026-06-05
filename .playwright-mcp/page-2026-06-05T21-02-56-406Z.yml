@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Fokusni O'zgartirish" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Fokusni O'zgartirish
+      - button "Ovozni yoqish" [ref=e7] [cursor=pointer]: ✕
+    - generic [ref=e8]:
+      - paragraph [ref=e9]: Fokusni o'zgartiring
+      - paragraph [ref=e10]: Yaqin va uzoq orasida fokusni navbat bilan o'zgartiring.
+      - button "Boshlash" [ref=e11] [cursor=pointer]
+      - paragraph [ref=e12]: Bu — ko'z qulayligi mashqi (AAO tavsiyasi). Kognitiv ball yoki daraja bermaydi.
+  - alert [ref=e13]

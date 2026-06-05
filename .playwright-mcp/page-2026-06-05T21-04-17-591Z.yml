@@ -1,0 +1,124 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Miyaga sayohat" [ref=e5] [cursor=pointer]:
+          - /url: /uz/intro/
+          - text: ←
+        - img [ref=e6]
+        - generic [ref=e7]: Neyron AI
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]: ◆
+          - generic [ref=e11]: "2"
+          - generic [ref=e12]: kun
+        - link "Til / Язык / Language" [ref=e13] [cursor=pointer]:
+          - /url: /uz/language/
+          - text: 🌐
+        - generic [ref=e14]:
+          - button "EN" [ref=e15] [cursor=pointer]
+          - button "RU" [ref=e16] [cursor=pointer]
+          - button "UZ" [ref=e17] [cursor=pointer]
+    - generic [ref=e18]:
+      - generic [ref=e19]: Har kuni o'zingizni yaxshilang
+      - heading "Bugungi maqsad" [level=1] [ref=e20]
+      - paragraph [ref=e21]: E'tibor, xotira, tezlik, diqqat va mantiqni mashq qiling.
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - heading "Yo'nalishlar" [level=2] [ref=e24]
+        - generic [ref=e25]: 20 o'yin
+      - list [ref=e26]:
+        - listitem [ref=e27]:
+          - link "01 Xotira Eslab qolish, ushlab turish va qayta tiklash 5" [ref=e28] [cursor=pointer]:
+            - /url: /uz/games/memory/
+            - generic [ref=e29]:
+              - generic [ref=e30]: "01"
+              - generic [ref=e31]:
+                - generic [ref=e32]: Xotira
+                - generic [ref=e33]: Eslab qolish, ushlab turish va qayta tiklash
+              - generic [ref=e34]: "5"
+              - generic [ref=e35]: →
+        - listitem [ref=e36]:
+          - link "02 Diqqat Yo'naltirilgan va barqaror e'tibor 2" [ref=e37] [cursor=pointer]:
+            - /url: /uz/games/attention/
+            - generic [ref=e38]:
+              - generic [ref=e39]: "02"
+              - generic [ref=e40]:
+                - generic [ref=e41]: Diqqat
+                - generic [ref=e42]: Yo'naltirilgan va barqaror e'tibor
+              - generic [ref=e43]: "2"
+              - generic [ref=e44]: →
+        - listitem [ref=e45]:
+          - link "03 Mantiq Suyuq intellekt va muammo yechish 3" [ref=e46] [cursor=pointer]:
+            - /url: /uz/games/logic/
+            - generic [ref=e47]:
+              - generic [ref=e48]: "03"
+              - generic [ref=e49]:
+                - generic [ref=e50]: Mantiq
+                - generic [ref=e51]: Suyuq intellekt va muammo yechish
+              - generic [ref=e52]: "3"
+              - generic [ref=e53]: →
+        - listitem [ref=e54]:
+          - link "04 Tezlik Ishlov tezligi va reaksiya 1" [ref=e55] [cursor=pointer]:
+            - /url: /uz/games/speed/
+            - generic [ref=e56]:
+              - generic [ref=e57]: "04"
+              - generic [ref=e58]:
+                - generic [ref=e59]: Tezlik
+                - generic [ref=e60]: Ishlov tezligi va reaksiya
+              - generic [ref=e61]: "1"
+              - generic [ref=e62]: →
+        - listitem [ref=e63]:
+          - link "05 Tormozlanish Tormozlash va xalaqitga qarshilik 1" [ref=e64] [cursor=pointer]:
+            - /url: /uz/games/focus/
+            - generic [ref=e65]:
+              - generic [ref=e66]: "05"
+              - generic [ref=e67]:
+                - generic [ref=e68]: Tormozlanish
+                - generic [ref=e69]: Tormozlash va xalaqitga qarshilik
+              - generic [ref=e70]: "1"
+              - generic [ref=e71]: →
+        - listitem [ref=e72]:
+          - link "06 Motor va Qo'l Nozik harakat va koordinatsiya 5" [ref=e73] [cursor=pointer]:
+            - /url: /uz/games/motor/
+            - generic [ref=e74]:
+              - generic [ref=e75]: "06"
+              - generic [ref=e76]:
+                - generic [ref=e77]: Motor va Qo'l
+                - generic [ref=e78]: Nozik harakat va koordinatsiya
+              - generic [ref=e79]: "5"
+              - generic [ref=e80]: →
+        - listitem [ref=e81]:
+          - link "07 Ko'z Mashqlari Ko'z qulayligi va okulomotor mashq 3" [ref=e82] [cursor=pointer]:
+            - /url: /uz/games/vision/
+            - generic [ref=e83]:
+              - generic [ref=e84]: "07"
+              - generic [ref=e85]:
+                - generic [ref=e86]: Ko'z Mashqlari
+                - generic [ref=e87]: Ko'z qulayligi va okulomotor mashq
+              - generic [ref=e88]: "3"
+              - generic [ref=e89]: →
+    - paragraph [ref=e93]: Faqat real o'lchangan natijani ko'rsatamiz. Soxta va'da yo'q.
+    - navigation [ref=e94]:
+      - list [ref=e95]:
+        - listitem [ref=e96]:
+          - link "Bugun" [ref=e97] [cursor=pointer]:
+            - /url: /uz/
+            - generic [ref=e98]: ◐
+            - generic [ref=e99]: Bugun
+        - listitem [ref=e100]:
+          - link "O'yinlar" [ref=e101] [cursor=pointer]:
+            - /url: /uz/games/
+            - generic [ref=e102]: ◍
+            - generic [ref=e103]: O'yinlar
+        - listitem [ref=e104]:
+          - link "Tahlil" [ref=e105] [cursor=pointer]:
+            - /url: /uz/insights/
+            - generic [ref=e106]: ◇
+            - generic [ref=e107]: Tahlil
+        - listitem [ref=e108]:
+          - link "Profil" [ref=e109] [cursor=pointer]:
+            - /url: /uz/profile/
+            - generic [ref=e110]: ◉
+            - generic [ref=e111]: Profil
+  - alert [ref=e112]

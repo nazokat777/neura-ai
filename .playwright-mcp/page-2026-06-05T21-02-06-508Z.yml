@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Kaftlar To'qnashuvi" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Kaftlar To'qnashuvi
+      - button "Ovozni yoqish" [ref=e7] [cursor=pointer]: ✕
+    - generic [ref=e9]:
+      - text: Qanday o'ynaladi
+      - heading "Kaftlar To'qnashuvi" [level=2] [ref=e10]
+      - paragraph [ref=e11]: Yongan tomonni ritm bilan bosing — koordinatsiya.
+      - button "Tushundim, boshlash" [ref=e12] [cursor=pointer]
+  - alert [ref=e13]

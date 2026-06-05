@@ -1,0 +1,683 @@
+{
+  "common": {
+    "start": "Boshlash",
+    "next": "Keyingi",
+    "back": "Orqaga",
+    "level": "Daraja",
+    "score": "Ball",
+    "accuracy": "Aniqlik",
+    "best": "Rekord",
+    "again": "Yana",
+    "done": "Tayyor",
+    "continue": "Davom etish",
+    "round": "Raund",
+    "time": "Vaqt",
+    "skip": "O'tkazib yuborish",
+    "howToPlay": "Qanday o'ynaladi",
+    "understood": "Tushundim, boshlash",
+    "scrollDown": "Pastga suring",
+    "livesNote": "3 joningiz bor — 3 marta xato qilsangiz o'yin tugaydi"
+  },
+  "rules": {
+    "schulte": "Raqamlarni 1 dan boshlab tartib bilan toping. Topilgan raqam yo'qolib, o'rniga kattaroq chiqadi. Vaqt tugaguncha imkon qadar ko'p toping.",
+    "memory": "Yongan kataklarni yodlang, so'ng o'sha kataklarni bosing. Hammasini to'g'ri topsangiz — keyingi bosqich, qiyinroq bo'ladi.",
+    "stroop": "Harf qaysi rangда yozilganiga ahamiyat bermang. SO'Z NIMA deyilgan bo'lsa (ma'nosi), o'sha rangni tanlang. Tez va to'g'ri bo'ling.",
+    "speed": "Strelka qaysi tomonni ko'rsatsa, o'sha tomonni bosing — imkon qadar tez.",
+    "math": "Misobni yeching va to'g'ri javobni tanlang. Tez va aniq bo'ling.",
+    "sequence": "Hozirgi katak bir necha qadam oldingisi bilan bir xil bo'lsa — 'MOS' bosing. Ishchi xotira mashqi.",
+    "nebula": "Yongan nishonlarni eslab qoling. Ular harakatlanadi — to'xtaganda qaysilari nishon edi, o'shalarni tanlang.",
+    "audioMemory": "Eshitilgan tovushlar ketma-ketligini yodlang va o'sha tartibда qaytaring.",
+    "names": "Yuz va ismlarni bog'lab yodlang. So'ng 'Bu kim?' savoliga to'g'ri ismni tanlang.",
+    "pictogram": "Ko'rsatilgan belgilarni yodlang, so'ng to'rdan o'shalarini toping.",
+    "iq": "Sonlar ketma-ketligidagi qoidani toping va keyingi sonni tanlang.",
+    "crossword": "Berilgan ta'rifga mos so'zni harflardan tuzing va tekshiring.",
+    "eyeHand": "Yongan katakni imkon qadar tez bosing — ko'z-qo'l muvofiqligi.",
+    "fingerDance": "Yongan panellarni tez va to'g'ri ketma-ketlikда bosing — barmoq tezligi.",
+    "palmClash": "Yongan tomonni ritm bilan bosing — koordinatsiya.",
+    "neuroSync": "Yongan katakni aynan vaqtida bosing — sinxronlik.",
+    "mirrorDraw": "Yongan katakni va uning oynaviy (simmetrik) juftini bosing.",
+    "focusShift": "Yaqin va uzoq nuqtalarga navbat bilan fokuslang — ko'z mashqi (kognitiv ball yo'q).",
+    "rule202020": "Har 20 daqiqada 20 soniya 6 metr uzoqqa qarang — ko'z dam olishi (kognitiv ball yo'q).",
+    "figureEight": "Nuqtani ko'zingiz bilan kuzatib, havoda 8 raqamini chizing — ko'z mashqi (kognitiv ball yo'q)."
+  },
+  "app": {
+    "name": "Neyron AI",
+    "tagline": "Har kuni o'zingizni yaxshilang"
+  },
+  "intro": {
+    "cta": "Boshlash",
+    "p1": "Siz o'zingizni taniysizmi?",
+    "p2": "Miyangizda qanchalik katta kuch va imkoniyat borligini bilasizmi?",
+    "p3": {
+      "title": "Miyangiz — mashq qiladigan mushak, siz bilan o'sadi!",
+      "caption": "Har kuni 5 daqiqa va beshta ilmiy mashq."
+    },
+    "p4": {
+      "title": "Faqat real natija.",
+      "caption": "Soxta va'da yo'q."
+    },
+    "p5": {
+      "title": "Tayyormisiz?",
+      "caption": "Bugun boshlang."
+    }
+  },
+  "home": {
+    "title": "Bugungi maqsad",
+    "subtitle": "E'tibor, xotira, tezlik, diqqat va mantiqni mashq qiling.",
+    "drills": "Mashqlar",
+    "explore": "Yo'nalishlar",
+    "gamesTotal": "{n} o'yin",
+    "greeting": "Salom, {name} 👋",
+    "honest": "Faqat real o'lchangan natijani ko'rsatamiz. Soxta va'da yo'q.",
+    "profileCta": "Kognitiv profil"
+  },
+  "profile": {
+    "title": "Profil",
+    "kicker": "Kognitiv profil",
+    "heading": "Sizning profilingiz",
+    "measured": "O'lchangan domenlar",
+    "level": "Daraja {n}",
+    "notMeasured": "Hali o'lchanmagan",
+    "honest": "Har domen shu mashqning oxirgi natijasidan hisoblanadi. O'lchanmagan domen markazda turadi — soxta ball emas, hali ma'lumot yo'q."
+  },
+  "domains": {
+    "attention": "Diqqat",
+    "memory": "Xotira",
+    "speed": "Tezlik",
+    "focus": "Tormozlanish",
+    "logic": "Mantiq"
+  },
+  "brain": {
+    "aria": "Kognitiv miya xaritasi",
+    "synapses": "Sinaps faolligi",
+    "synapsesSub": "jami o'ynagan raundlar",
+    "synapsesHonest": "Vizual metafora — bu real o'ynagan raundlaringiz soni, biologik o'lchov emas.",
+    "honest": "Har mintaqa shu mashqning oxirgi natijasidan yonadi. Sinaps faolligi — jami o'ynagan raundlaringiz (vizual metafora, tibbiy da'vo emas).",
+    "trains": "Bu bo'lim ishga soladi",
+    "system": {
+      "neocortex": "Neokorteks",
+      "limbic": "Limbik tizim",
+      "cerebellum": "Serebellum"
+    },
+    "region": {
+      "hippocampus": {
+        "name": "Gippokamp",
+        "note": "Yangi xotira shakllanishi markazi."
+      },
+      "frontoparietal": {
+        "name": "Fronto-parietal tarmoq",
+        "note": "Diqqatni yo'naltirish tarmog'i."
+      },
+      "prefrontal": {
+        "name": "Prefrontal korteks",
+        "note": "Mantiq, reja va qaror qabul qilish."
+      },
+      "sensorimotor": {
+        "name": "Sensomotor zona",
+        "note": "Ishlov tezligi va reaksiya."
+      },
+      "acc": {
+        "name": "Oldingi cingulat / prefrontal",
+        "note": "Tormozlash va xato nazorati."
+      },
+      "motorCerebellum": {
+        "name": "Motor korteks + serebellum",
+        "note": "Harakat va koordinatsiya."
+      },
+      "occipital": {
+        "name": "Oksipital (ko'rish) zona",
+        "note": "Vizual ishlov; ko'z qulayligi."
+      }
+    },
+    "discover": {
+      "kicker": "Miyaga sayohat",
+      "q": "O'zingizni taniysizmi?",
+      "lead": "Miyangiz — ulkan kuch.",
+      "structureTitle": "Miya tuzilishi",
+      "structureBody": "Salohiyatingiz hali uxlab yotibdi.",
+      "cta": "Testni boshlash",
+      "honest": "Bu — soddalashtirilgan ta'limiy vizual, tibbiy tasvir emas."
+    }
+  },
+  "onboarding": {
+    "kicker": "Tanishuv",
+    "title": "Siz haqingizda",
+    "step": "{i} / {total}",
+    "next": "Keyingi",
+    "back": "Orqaga",
+    "finish": "Testga o'tish",
+    "multiHint": "Bir nechtasini tanlash mumkin",
+    "honest": "Bu javoblar faqat tavsiyalarni shaxsiylashtirish uchun. Tibbiy tashxis emas, ma'lumot qurilmangizda saqlanadi.",
+    "q": {
+      "name": {
+        "q": "Ismingiz nima?",
+        "placeholder": "Ismingizni kiriting"
+      },
+      "age": {
+        "q": "Yoshingiz nechada?",
+        "o": {
+          "a1": "18 dan kichik",
+          "a2": "18–24",
+          "a3": "25–34",
+          "a4": "35–44",
+          "a5": "45+"
+        }
+      },
+      "work": {
+        "q": "Asosan nima bilan shug'ullanasiz?",
+        "o": {
+          "student": "O'qiyman",
+          "knowledge": "Aqliy mehnat",
+          "manual": "Jismoniy mehnat",
+          "manager": "Rahbarlik",
+          "other": "Boshqa"
+        }
+      },
+      "concerns": {
+        "q": "Nima ko'proq bezovta qiladi?",
+        "o": {
+          "memory": "Unutuvchanlik",
+          "focus": "Diqqat tarqoqligi",
+          "speed": "Sekin fikrlash",
+          "fatigue": "Charchoq",
+          "stress": "Stress"
+        }
+      },
+      "sleep": {
+        "q": "Kuniga qancha uxlaysiz?",
+        "o": {
+          "lt5": "5 soatdan kam",
+          "h56": "5–6 soat",
+          "h78": "7–8 soat",
+          "gt8": "8 soatdan ko'p"
+        }
+      },
+      "stress": {
+        "q": "Stress darajangiz qanday?",
+        "o": {
+          "low": "Past",
+          "mid": "O'rta",
+          "high": "Yuqori"
+        }
+      },
+      "nutrition": {
+        "q": "Ovqatlanishingiz qanday?",
+        "o": {
+          "poor": "Tartibsiz",
+          "ok": "O'rtacha",
+          "good": "Sog'lom"
+        }
+      },
+      "goal": {
+        "q": "Nega bu yerga keldingiz?",
+        "o": {
+          "focus": "Diqqatni o'tkirlash",
+          "memory": "Xotirani yaxshilash",
+          "speed": "Tezroq fikrlash",
+          "habit": "Kunlik odat",
+          "curiosity": "Qiziqish"
+        }
+      }
+    }
+  },
+  "drills": {
+    "schulte": "Shulte jadvali",
+    "schulteDesc": "Raqamlarni tartib bilan, imkon qadar tez toping.",
+    "memory": "Xotira matritsasi",
+    "stroop": "Stroop testi",
+    "speed": "Ikki qaror",
+    "math": "Tez hisob"
+  },
+  "schulte": {
+    "instruction": "1 dan boshlab tartib bilan toping. To'g'ri raqam yo'qoladi — o'rniga yangisi chiqadi.",
+    "find": "Topdik: {n}",
+    "timeUp": "Vaqt tugadi!",
+    "found": "Topildi",
+    "levelUp": "Qiyinlik oshdi",
+    "levelDown": "Qiyinlik yengillashdi",
+    "levelSame": "Qiyinlik o'zgarmadi"
+  },
+  "memory": {
+    "memorize": "Yongan kataklarni yodlang",
+    "recall": "Ko'rgan kataklaringizni bosing",
+    "cells": "{n} ta katak",
+    "rule": "Yongan kataklarni yodlang, so'ng o'sha kataklarni bosing. Hammasini to'g'ri topsangiz — keyingi bosqich, qiyinroq bo'ladi."
+  },
+  "stroop": {
+    "instruction": "Harf rangiga qaramang — SO'Z NIMA deyilgan bo'lsa, o'sha rangni bosing.",
+    "trial": "{i} / {total}",
+    "names": {
+      "red": "QIZIL",
+      "blue": "KO'K",
+      "green": "YASHIL",
+      "yellow": "SARIQ",
+      "purple": "BINAFSHA",
+      "orange": "TO'Q SARIQ",
+      "pink": "PUSHTI",
+      "cyan": "FIRUZA"
+    }
+  },
+  "speed": {
+    "instruction": "Strelka ko'rsatgan tomonni bosing — tez!",
+    "left": "Chap",
+    "right": "O'ng",
+    "tooSlow": "Juda sekin"
+  },
+  "math": {
+    "instruction": "To'g'ri javobni tanlang.",
+    "trial": "{i} / {total}"
+  },
+  "sequence": {
+    "instruction": "Hozirgi katak {n} qadam oldingisi bilan bir xil bo'lsa — MOS bosing.",
+    "match": "MOS",
+    "nBack": "{n}-orqa",
+    "nBackShort": "N-orqa"
+  },
+  "nebula": {
+    "instruction": "Yongan nishonlarni eslab qoling. Ular harakatlanadi — to'xtaganda qaysilari nishon edi, tanlang.",
+    "memorize": "Nishonlarni eslab qoling",
+    "track": "Kuzatib turing",
+    "pick": "{n} ta nishonni tanlang",
+    "reveal": "Natija",
+    "confirm": "Tasdiqlash",
+    "caught": "Tutilgan"
+  },
+  "motor": {
+    "hits": "Aniq teginish",
+    "instr": {
+      "eyeHand": "Yongan katakni imkon qadar tez bosing",
+      "fingerDance": "Yongan panelni tez bosing — barmoq tezligi",
+      "palmClash": "Yongan tomonni ritm bilan bosing",
+      "neuroSync": "Yongan katakni vaqtida bosing — sinxron",
+      "mirrorDraw": "Yongan katak va uning oynaviy juftini bosing"
+    }
+  },
+  "recs": {
+    "kicker": "Neyro-tavsiyalar",
+    "title": "Miyangiz uchun reja",
+    "intro": "Javoblaringizga moslab tuzildi. Har tavsiya haqiqiy neyrobiologiya tadqiqotiga asoslanadi.",
+    "sourceLabel": "Manba",
+    "honest": "Bu — umumiy ilmiy konsensus, shaxsiy tibbiy maslahat emas. Manbalar ochiq ko'rsatilgan.",
+    "items": {
+      "sleep": {
+        "title": "Uyqu — xotira mustahkamlovchisi",
+        "body": "Kuniga 7–9 soat uxlang. Uyqu kun davomida o'rganilgan ma'lumotni mustahkamlaydi.",
+        "source": "Diekelmann & Born, 2010, Nature Reviews Neuroscience"
+      },
+      "exercise": {
+        "title": "Harakat — miya uchun ozuqa",
+        "body": "Haftada 3+ marta aerob mashq gippokamp hajmi va kognitiv funksiyaga foyda beradi.",
+        "source": "Hillman, Erickson & Kramer, 2008, Nature Reviews Neuroscience"
+      },
+      "nutrition": {
+        "title": "Miya ovqati",
+        "body": "Omega-3 va O'rta yer dengizi dietasi kognitiv salomatlikni qo'llab-quvvatlaydi.",
+        "source": "Gómez-Pinilla, 2008, Nature Reviews Neuroscience"
+      },
+      "mental": {
+        "title": "Aqliy zaxira",
+        "body": "Yangi ko'nikma o'rganish va faol aqliy mehnat 'kognitiv zaxira'ni oshiradi.",
+        "source": "Stern, 2009, Lancet Neurology"
+      },
+      "oxygen": {
+        "title": "Kislorod — miya yoqilg'isi",
+        "body": "Miya tana energiyasining ~20% ini ishlatadi. Toza havo, shamollatish va chuqur nafas diqqatni qo'llab-quvvatlaydi.",
+        "source": "Raichle & Gusnard, 2002, PNAS"
+      },
+      "earlyWake": {
+        "title": "Vaqtli va barqaror uyg'onish",
+        "body": "Bir xil vaqtda uyg'onish sirkadian ritmni mustahkamlaydi va kunduzgi diqqat hamda kayfiyatni yaxshilaydi.",
+        "source": "Walker, 2017, Why We Sleep"
+      },
+      "training": {
+        "title": "Mashq haqida halol haqiqat",
+        "body": "Mashq aynan shu mashqda natijani yaxshilaydi; 'umuman aqlliroq bo'lasiz' degani isbotlanmagan.",
+        "source": "Simons va b., 2016; Owen va b., 2010, Nature"
+      }
+    },
+    "harmsTitle": "Miyaga zararli omillar",
+    "harms": {
+      "stress": {
+        "title": "Surunkali siqilish (stress)",
+        "body": "Uzoq stress kortizolni oshiradi va xotira markazi — gippokampga zarar yetkazadi.",
+        "source": "McEwen, 2007, Physiological Reviews"
+      },
+      "sugar": {
+        "title": "Ortiqcha shirinlik (shakar)",
+        "body": "Yuqori shakarli dieta BDNF va gippokamp funksiyasini pasaytirib, o'rganishni susaytiradi.",
+        "source": "Gómez-Pinilla, 2008, Nature Reviews Neuroscience"
+      },
+      "sleepLoss": {
+        "title": "Kechasi uxlamaslik",
+        "body": "Uyqusizlik diqqat, xotira va qaror qabul qilishni keskin pasaytiradi.",
+        "source": "Killgore, 2010, Progress in Brain Research"
+      },
+      "processed": {
+        "title": "Sun'iy / o'ta qayta ishlangan mahsulotlar",
+        "body": "O'ta qayta ishlangan ovqatlar (UPF) iste'moli tezroq kognitiv tanazzul bilan bog'liq topilgan.",
+        "source": "Gomes Gonçalves va b., 2023, JAMA Neurology"
+      }
+    }
+  },
+  "baseline": {
+    "kicker": "Boshlang'ich o'lchov",
+    "title": "A nuqtangizni topamiz",
+    "intro": "Hozirgi holatingizni bilish uchun har mashqdan bittadan o'ynang. Profilingiz shu real natijalardan tuziladi.",
+    "progress": "{done} / {total} o'lchandi",
+    "play": "O'ynash",
+    "done": "Bajarildi",
+    "reveal": "A nuqtamni ko'rsat",
+    "returnToTest": "Testga qaytish",
+    "honest": "Bu — A nuqtangiz: hozirgi real o'lchangan holatingiz. Soxta IQ raqami emas."
+  },
+  "result": {
+    "title": "Natija",
+    "performance": "Samaradorlik",
+    "nextLevel": "Keyingi daraja"
+  },
+  "recForYou": {
+    "kicker": "Sizga tavsiya",
+    "body": "Bu — oxirgi o'lchovda eng past natija bergan tomoningiz. Quyidagi o'yinlar aynan shuni kuchaytiradi.",
+    "noData": "Hali A-nuqtangiz aniqlanmagan. Avval qisqa testdan o'ting — natijangizga moslab o'yin tavsiya qilamiz.",
+    "startTest": "Testni boshlash",
+    "honest": "Tavsiya faqat real o'lchangan natijadan. Majburiy emas — xohlagan bo'limni tanlashingiz mumkin."
+  },
+  "analysis": {
+    "kicker": "Miya tahlili",
+    "title": "Sizning shaxsiy rejangiz",
+    "intro": "Neyrofan yondashuvi: test natijalaringiz va anketa javoblaringiz birga tahlil qilindi. Quyida eng ko'p e'tibor talab qiladigan sohalar.",
+    "noData": "Reja tuzish uchun avval anketani to'ldiring va qisqa testdan o'ting — natijangizga moslab mashqlar beraman.",
+    "startTest": "Testni boshlash",
+    "honest": "Bu — o'lchangan natija va o'z javoblaringizga asoslangan moslashtirish, tibbiy tashxis emas.",
+    "reason": {
+      "weak": "o'lchovda zaifroq",
+      "concern": "siz belgilagansiz",
+      "goal": "maqsadingiz"
+    }
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "language": "Til"
+  },
+  "game": {
+    "combo": "Kombo",
+    "score": "Ball",
+    "maxCombo": "Eng uzun kombo",
+    "stages": "Bosqich",
+    "gameOver": "O'yin tugadi"
+  },
+  "streak": {
+    "short": "kun",
+    "days": "Kun ketma-ket",
+    "best": "Rekord"
+  },
+  "audio": {
+    "instruction": "Eshitilgan ranglar ketma-ketligini qaytaring.",
+    "listen": "Tinglang",
+    "repeat": "Qaytaring",
+    "recalled": "Eslangan"
+  },
+  "names": {
+    "instruction": "Yuz va ismlarni bog'lab eslab qoling.",
+    "memorize": "Yuz va ismlarni yodla",
+    "whoIsThis": "Bu kim?",
+    "matched": "To'g'ri"
+  },
+  "pictogram": {
+    "instruction": "Belgilarni yodlang, keyin to'rdan o'shalarini toping.",
+    "memorize": "Belgilarni yodla",
+    "recall": "Ko'rganlaringizni tanlang",
+    "found": "Topilgan"
+  },
+  "iq": {
+    "whichNext": "Keyingi son qaysi?",
+    "solved": "Yechilgan",
+    "honest": "Bu — naqsh topish mashqi (suyuq intellekt), populyatsiya IQ'si emas."
+  },
+  "crossword": {
+    "clue": "Ta'rif",
+    "check": "Tekshirish",
+    "solved": "Topilgan"
+  },
+  "vision": {
+    "start": "Boshlash",
+    "again": "Yana",
+    "done": "Tayyor!",
+    "relax": "Ko'zlaringiz dam oldi. Endi davom etishingiz mumkin.",
+    "restLook": "6 metr uzoqqa qarab turing",
+    "near": "Yaqinga qarang",
+    "far": "Uzoqqa qarang",
+    "traceFollow": "Nuqtani ko'zingiz bilan kuzating (boshingiz qimirlamasin)",
+    "honest": "Bu — ko'z qulayligi mashqi (AAO tavsiyasi). Kognitiv ball yoki daraja bermaydi.",
+    "instr": {
+      "focusShift": "Fokusni o'zgartiring",
+      "rule202020": "20-20-20 qoidasi",
+      "figureEight": "Sakkiz shakli"
+    },
+    "desc": {
+      "focusShift": "Yaqin va uzoq orasida fokusni navbat bilan o'zgartiring.",
+      "rule202020": "Har 20 daqiqada 20 soniya 6 metr uzoqqa qarang.",
+      "figureEight": "Ko'zingiz bilan havoda 8 raqamini chizing."
+    }
+  },
+  "nav": {
+    "today": "Bugun",
+    "games": "O'yinlar",
+    "insights": "Tahlil",
+    "profile": "Profil"
+  },
+  "games": {
+    "kicker": "O'yinlar markazi",
+    "title": "O'yinlar",
+    "subtitle": "Kognitiv domenlar bo'yicha ilmiy mashqlar. Har biri miyaning bir qobiliyatini o'tkirlaydi.",
+    "gameOfDay": "Bugungi o'yin",
+    "categories": "Bo'limlar",
+    "comingSoon": "Tez orada",
+    "play": "Boshlash",
+    "open": "Ochish",
+    "back": "Orqaga",
+    "allGames": "Barcha o'yinlar",
+    "scientificFact": "Ilmiy fakt",
+    "areasTitle": "Asosiy miya mintaqalari",
+    "scoreTitle": "Sizning ko'rsatkichingiz",
+    "scoreNote": "Real o'lchangan natijadan. Hali o'lchanmagan bo'lsa — mashqdan o'ting.",
+    "scoreEmpty": "hali o'lchanmagan",
+    "honest": "Faqat ishlaydigan mashqlar o'ynaladi. \"Tez orada\" — hali tayyor emas, soxta emas.",
+    "tier": {
+      "easy": "Oson",
+      "medium": "O'rta",
+      "hard": "Qiyin"
+    },
+    "cat": {
+      "memory": {
+        "name": "Xotira",
+        "tagline": "Eslab qolish, ushlab turish va qayta tiklash",
+        "fact": "Ishchi xotira — Baddeley & Hitch modeli (1974): miya ma'lumotni vaqtincha ushlab, qayta ishlaydi. Maqsadli mashq ushlab turish hajmi va aniqligini oshiradi.",
+        "source": "Baddeley & Hitch, 1974; Klingberg, 2010, Trends in Cognitive Sciences"
+      },
+      "attention": {
+        "name": "Diqqat",
+        "tagline": "Yo'naltirilgan va barqaror e'tibor",
+        "fact": "Diqqat yagona narsa emas — ogohlik, yo'naltirish va ijroiy nazorat tarmoqlaridan iborat (Posner & Petersen, 1990). Vizual qidiruv yo'naltirilgan diqqatni mashq qiladi.",
+        "source": "Posner & Petersen, 1990, Annual Review of Neuroscience"
+      },
+      "logic": {
+        "name": "Mantiq",
+        "tagline": "Suyuq intellekt va muammo yechish",
+        "fact": "Suyuq intellekt (Gf) — yangi muammoni tayyor bilimsiz yechish qobiliyati (Cattell, 1963). Mantiqiy mashqlar shu jarayonni faollashtiradi.",
+        "source": "Cattell, 1963; Jaeggi va b., 2008, PNAS"
+      },
+      "speed": {
+        "name": "Tezlik",
+        "tagline": "Ishlov tezligi va reaksiya",
+        "fact": "Ishlov tezligi yosh bilan tabiiy pasayadi (Salthouse, 1996), biroq tezkor qaror mashqlari reaksiya vaqtini o'tkirlashtiradi.",
+        "source": "Salthouse, 1996, Psychological Review"
+      },
+      "focus": {
+        "name": "Tormozlanish",
+        "tagline": "Tormozlash va xalaqitga qarshilik",
+        "fact": "Stroop effekti (1935) — avtomatik javobni tormozlash ijroiy nazoratning o'lchovidir (Miyake va b., 2000). Bu — diqqatni saqlash va xalaqitga qarshilik.",
+        "source": "Stroop, 1935; Miyake va b., 2000, Cognitive Psychology"
+      },
+      "motor": {
+        "name": "Motor va Qo'l",
+        "tagline": "Nozik harakat va koordinatsiya",
+        "fact": "Murakkab barmoq harakatlari motor korteks va serebellumni faollashtiradi; bimanual (ikki qo'l) koordinatsiya yarim sharlar aloqasini mashq qiladi.",
+        "source": "Doyon & Benali, 2005, Current Opinion in Neurobiology"
+      },
+      "vision": {
+        "name": "Ko'z Mashqlari",
+        "tagline": "Ko'z qulayligi va okulomotor mashq",
+        "fact": "20-20-20 qoidasi (har 20 daqiqada 20 soniya 6 metr uzoqqa qarash) raqamli ko'z charchog'ini kamaytirish uchun tavsiya etiladi. Bu — ko'z qulayligi uchun, kognitiv mashq emas.",
+        "source": "American Academy of Ophthalmology"
+      }
+    },
+    "item": {
+      "memory": {
+        "name": "Xotira matritsasi",
+        "desc": "Yongan kataklarni yodlab, ketma-ket qayta tiklang."
+      },
+      "sequence": {
+        "name": "Ketma-ketlik",
+        "desc": "Raqam va harflar zanjirini takrorlang — ishchi xotira hajmini oshiring."
+      },
+      "names": {
+        "name": "Ismlar va Yuzlar",
+        "desc": "Odamlar va ismlarni bog'lab eslab qoling."
+      },
+      "audioMemory": {
+        "name": "Audio-Xotira",
+        "desc": "Eshitilgan tovushlar ketma-ketligini qayta bering."
+      },
+      "pictogram": {
+        "name": "Piktogrammalar",
+        "desc": "Murakkab vizual belgilarni eslab, qayta tiklang."
+      },
+      "schulte": {
+        "name": "Shulte jadvali",
+        "desc": "Raqamlarni tartib bilan, imkon qadar tez toping."
+      },
+      "nebula": {
+        "name": "Nebula Navigator",
+        "desc": "Fazoda bir nechta harakatlanuvchi nishonni bir vaqtda kuzating."
+      },
+      "math": {
+        "name": "Tez hisob",
+        "desc": "Tez va to'g'ri hisoblang — mantiqiy tezlikni o'tkirlash."
+      },
+      "crossword": {
+        "name": "Kognitiv Krossvord",
+        "desc": "Tushunchalarni topib, mantiqiy bog'lanishlarni mustahkamlang."
+      },
+      "iq": {
+        "name": "Mantiqiy ketma-ketlik",
+        "desc": "Naqshni topib, keyingi sonni tanlang."
+      },
+      "speed": {
+        "name": "Ikki qaror",
+        "desc": "Strelka tomonini tez tanlang — reaksiyani o'tkirlash."
+      },
+      "stroop": {
+        "name": "Stroop testi",
+        "desc": "So'z emas, rangni tanlang — xalaqitga qarshilik mashqi."
+      },
+      "neuroSync": {
+        "name": "Neyro-Sinxronizatsiya",
+        "desc": "Barmoq harakatlarini ritmga moslab, motor nazoratni mashq qiling."
+      },
+      "fingerDance": {
+        "name": "Barmoqlar Raqsi",
+        "desc": "Barmoqlar ketma-ketligini tez bajaring — motor korteks tezligi."
+      },
+      "mirrorDraw": {
+        "name": "Simmetrik Chizish",
+        "desc": "Ikki qo'l bilan oynaviy shakl chizing — ikki yarim shar."
+      },
+      "palmClash": {
+        "name": "Kaftlar To'qnashuvi",
+        "desc": "Ritmik teginish koordinatsiyasi."
+      },
+      "eyeHand": {
+        "name": "Ko'z-Qo'l Koordinatsiyasi",
+        "desc": "Vizual kuzatuv va tezkor qo'l harakati."
+      },
+      "focusShift": {
+        "name": "Fokusni O'zgartirish",
+        "desc": "Yaqin va uzoq obyektlarga fokusni navbat bilan o'zgartiring."
+      },
+      "rule202020": {
+        "name": "20-20-20 Qoidasi",
+        "desc": "Har 20 daqiqada 20 soniya 6 metr uzoqqa qarang."
+      },
+      "figureEight": {
+        "name": "Sakkiz Shakli",
+        "desc": "Ko'z bilan havoda 8 raqamini chizing — vizual kuzatuv."
+      }
+    },
+    "forYou": "Sizga tavsiya",
+    "forYouReason": "Eng zaif tomoningiz — {domain}. Aynan shuni kuchaytiring.",
+    "sinceFirst": "birinchidan"
+  },
+  "insights": {
+    "appName": "Neyron AI",
+    "kicker": "Natijalar tahlili",
+    "title": "Kognitiv holatingiz",
+    "indexLabel": "Neyron Indeks",
+    "indexHonest": "{n}/{total} domen o'lchandi. Bu — o'zingizga nisbatan ko'rsatkich, populyatsiya IQ'si emas.",
+    "noData": "Hali ma'lumot yo'q. Profilingizni ko'rsatish uchun avval mashqlardan o'ynang.",
+    "profile": "Kognitiv profil",
+    "strength": "Kuchli tomoningiz",
+    "strengthBody": "Bu domen oxirgi o'lchovda eng yuqori natija berdi. Davom eting — kuchli tomon poydevor.",
+    "recommended": "Tavsiya etilgan",
+    "ctaGames": "O'yinlar",
+    "ctaGamesSub": "Barcha mashqlar markazi",
+    "ctaRecs": "Neyro-tavsiyalar",
+    "ctaRecsSub": "Miyangiz uchun reja",
+    "honest": "Indeks va profil faqat real o'lchangan natijalardan. Soxta raqam yo'q.",
+    "dom": {
+      "memory": "Xotira",
+      "attention": "Diqqat",
+      "logic": "Mantiq",
+      "speed": "Tezlik",
+      "adapt": "Tormozlanish"
+    }
+  },
+  "postTest": {
+    "kicker": "Test yakunlandi",
+    "title": "Sizga tavsiya",
+    "optional": "Bu — tavsiya, majburiy emas. Xohlasangiz boshlang yoki o'tkazib yuboring.",
+    "start": "Boshlash",
+    "skip": "O'tkazib yuborish",
+    "next": "Davom etish"
+  },
+  "plan": {
+    "kicker": "Kunlik reja",
+    "title": "Mashqlar ketma-ketligi",
+    "intro": "Natijangizga moslab tuzilgan tartib — eng zaif tomondan boshlanadi. Har birini bosib o'ynang.",
+    "play": "O'ynash",
+    "resultsCta": "Natijalarimni ko'rish",
+    "honest": "Tartib faqat real o'lchangan natijadan tuzildi. Majburiy emas.",
+    "skip": "O'tkazib yuborish",
+    "home": "Bosh sahifaga o'tish"
+  },
+  "account": {
+    "kicker": "Akkaunt",
+    "title": "Natijalarim",
+    "weekly": "Shu hafta",
+    "monthly": "Shu oy",
+    "rounds": "Mashqlar",
+    "activeDays": "Faol kunlar",
+    "avg": "O'rtacha",
+    "growth": "O'sish",
+    "streakLabel": "Kunlik ketma-ketlik",
+    "noData": "Hali ma'lumot yo'q. Bir nechta mashq o'ynang — natijalar shu yerda paydo bo'ladi.",
+    "dangerTitle": "Xavfli hudud",
+    "deleteBtn": "Akkauntni o'chirish",
+    "deleteDesc": "Barcha natija, profil va sozlamalar shu qurilmadan butunlay o'chadi. Bu amalni qaytarib bo'lmaydi.",
+    "confirmTitle": "Ishonchingiz komilmi?",
+    "confirmBody": "Hamma ma'lumot o'chadi va ortga qaytarib bo'lmaydi.",
+    "confirmYes": "Ha, o'chirish",
+    "confirmNo": "Bekor qilish",
+    "honest": "Hamma narsa faqat shu qurilmada saqlanadi (lokal). Server yo'q."
+  }
+}

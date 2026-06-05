@@ -1,0 +1,17 @@
+/node_modules
+/.next
+/out
+/build
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+/android
+/ios
+/.vercel
+
+.vercel
+
+# Logs & env
+*.log
+.env*
+dev.log

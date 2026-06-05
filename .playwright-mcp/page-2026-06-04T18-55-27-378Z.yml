@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Shulte jadvali" [level=1] [ref=e5]
+    - generic [ref=e7]:
+      - text: Qanday o'ynaladi
+      - heading "Shulte jadvali" [level=2] [ref=e8]
+      - paragraph [ref=e9]: Raqamlarni 1 dan boshlab tartib bilan toping. Topilgan raqam yo'qolib, o'rniga kattaroq chiqadi. Vaqt tugaguncha imkon qadar ko'p toping.
+      - button "Tushundim, boshlash" [ref=e10] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer]:
+    - img [ref=e17]

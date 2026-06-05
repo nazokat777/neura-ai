@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - generic:
+          - img
+      - link "Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/games/
+        - text: ←
+      - heading "Diqqat" [level=1] [ref=e5]
+      - paragraph [ref=e6]: Yo'naltirilgan va barqaror e'tibor
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: Sizning ko'rsatkichingiz
+        - generic [ref=e10]: Real o'lchangan natijadan. Hali o'lchanmagan bo'lsa — mashqdan o'ting.
+      - generic [ref=e11]:
+        - generic [ref=e12]: —
+        - generic [ref=e13]: hali o'lchanmagan
+    - generic [ref=e14]:
+      - text: Asosiy miya mintaqalari
+      - list [ref=e15]:
+        - listitem [ref=e16]:
+          - generic [ref=e17]: ⊛
+          - generic [ref=e18]:
+            - generic [ref=e19]: Prefrontal korteks
+            - generic [ref=e20]: Diqqatni ushlab turish
+        - listitem [ref=e21]:
+          - generic [ref=e22]: ⊛
+          - generic [ref=e23]:
+            - generic [ref=e24]: Oldingi cingulat
+            - generic [ref=e25]: Xato aniqlash
+        - listitem [ref=e26]:
+          - generic [ref=e27]: ⊛
+          - generic [ref=e28]:
+            - generic [ref=e29]: Parietal korteks
+            - generic [ref=e30]: Fazoviy diqqat
+    - generic [ref=e31]:
+      - heading "Barcha o'yinlar" [level=2] [ref=e32]
+      - link "01 Shulte jadvali O'rta Raqamlarni tartib bilan, imkon qadar tez toping." [ref=e33] [cursor=pointer]:
+        - /url: /uz/drills/schulte/
+        - generic [ref=e34]:
+          - generic [ref=e35]: "01"
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e38]: Shulte jadvali
+              - generic [ref=e39]: O'rta
+            - generic [ref=e40]: Raqamlarni tartib bilan, imkon qadar tez toping.
+          - generic [ref=e41]: →
+      - link "02 Nebula Navigator Qiyin Fazoda bir nechta harakatlanuvchi nishonni bir vaqtda kuzating." [ref=e42] [cursor=pointer]:
+        - /url: /uz/drills/nebula/
+        - generic [ref=e43]:
+          - generic [ref=e44]: "02"
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e47]: Nebula Navigator
+              - generic [ref=e48]: Qiyin
+            - generic [ref=e49]: Fazoda bir nechta harakatlanuvchi nishonni bir vaqtda kuzating.
+          - generic [ref=e50]: →
+    - generic [ref=e51]:
+      - text: Ilmiy fakt
+      - paragraph [ref=e52]: Diqqat yagona narsa emas — ogohlik, yo'naltirish va ijroiy nazorat tarmoqlaridan iborat (Posner & Petersen, 1990). Vizual qidiruv yo'naltirilgan diqqatni mashq qiladi.
+      - paragraph [ref=e53]: Posner & Petersen, 1990, Annual Review of Neuroscience
+    - navigation [ref=e54]:
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - link "Bugun" [ref=e57] [cursor=pointer]:
+            - /url: /uz/
+            - generic [ref=e58]: ◐
+            - generic [ref=e59]: Bugun
+        - listitem [ref=e60]:
+          - link "O'yinlar" [ref=e61] [cursor=pointer]:
+            - /url: /uz/games/
+            - generic [ref=e62]: ◍
+            - generic [ref=e63]: O'yinlar
+        - listitem [ref=e64]:
+          - link "Tahlil" [ref=e65] [cursor=pointer]:
+            - /url: /uz/insights/
+            - generic [ref=e66]: ◇
+            - generic [ref=e67]: Tahlil
+        - listitem [ref=e68]:
+          - link "Profil" [ref=e69] [cursor=pointer]:
+            - /url: /uz/profile/
+            - generic [ref=e70]: ◉
+            - generic [ref=e71]: Profil
+  - alert [ref=e72]

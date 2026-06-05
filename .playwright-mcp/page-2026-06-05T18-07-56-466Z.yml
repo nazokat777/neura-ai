@@ -1,0 +1,92 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Profil" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Profil
+      - button "Ovozni o‘chirish" [pressed] [ref=e7] [cursor=pointer]: ♪
+    - generic [ref=e8]:
+      - generic [ref=e9]: Kognitiv profil
+      - heading "Sizning profilingiz" [level=2] [ref=e10]
+    - generic [ref=e12]:
+      - generic [ref=e17]:
+        - generic:
+          - img
+      - generic [ref=e18]:
+        - generic [ref=e19]: "7"
+        - generic [ref=e20]:
+          - generic [ref=e21]: Sinaps faolligi
+          - generic [ref=e22]: jami o'ynagan raundlar
+      - paragraph [ref=e23]: Vizual metafora — bu real o'ynagan raundlaringiz soni, biologik o'lchov emas.
+    - link "Kognitiv holatingiz Natijalar tahlili →" [ref=e24] [cursor=pointer]:
+      - /url: /uz/insights/
+      - generic [ref=e25]:
+        - generic [ref=e26]: Kognitiv holatingiz
+        - generic [ref=e27]: Natijalar tahlili
+      - generic [ref=e28]: →
+    - generic [ref=e30]:
+      - text: Miya tahlili
+      - heading "Sizning shaxsiy rejangiz" [level=3] [ref=e31]
+      - paragraph [ref=e32]: "Neyrofan yondashuvi: test natijalaringiz va anketa javoblaringiz birga tahlil qilindi. Quyida eng ko'p e'tibor talab qiladigan sohalar."
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: "1"
+            - generic [ref=e37]: Tormozlanish
+            - generic [ref=e38]: 45/100
+          - paragraph [ref=e39]: ● Oldingi cingulat · Ziddiyat nazorati
+          - generic [ref=e41]: o'lchovda zaifroq
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "Stroop testi" [ref=e44] [cursor=pointer]:
+                - /url: /uz/drills/stroop/
+                - generic [ref=e45]: Stroop testi
+                - generic [ref=e46]: →
+      - paragraph [ref=e47]: Bu — o'lchangan natija va o'z javoblaringizga asoslangan moslashtirish, tibbiy tashxis emas.
+    - link "Miyangiz uchun reja Neyro-tavsiyalar →" [ref=e48] [cursor=pointer]:
+      - /url: /uz/recommendations/
+      - generic [ref=e49]:
+        - generic [ref=e50]: Miyangiz uchun reja
+        - generic [ref=e51]: Neyro-tavsiyalar
+      - generic [ref=e52]: →
+    - link "Natijalarim Akkaunt →" [ref=e53] [cursor=pointer]:
+      - /url: /uz/account/
+      - generic [ref=e54]:
+        - generic [ref=e55]: Natijalarim
+        - generic [ref=e56]: Akkaunt
+      - generic [ref=e57]: →
+    - link "Miyaga sayohat Miyangiz — ulkan kuch. ▶" [ref=e58] [cursor=pointer]:
+      - /url: /uz/intro/
+      - generic [ref=e59]:
+        - generic [ref=e60]: Miyaga sayohat
+        - generic [ref=e61]: Miyangiz — ulkan kuch.
+      - generic [ref=e62]: ▶
+    - link "Til →" [ref=e63] [cursor=pointer]:
+      - /url: /uz/language/
+      - generic [ref=e64]: Til
+      - generic [ref=e65]: →
+    - navigation [ref=e66]:
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - link "Bugun" [ref=e69] [cursor=pointer]:
+            - /url: /uz/
+            - generic [ref=e70]: ◐
+            - generic [ref=e71]: Bugun
+        - listitem [ref=e72]:
+          - link "O'yinlar" [ref=e73] [cursor=pointer]:
+            - /url: /uz/games/
+            - generic [ref=e74]: ◍
+            - generic [ref=e75]: O'yinlar
+        - listitem [ref=e76]:
+          - link "Tahlil" [ref=e77] [cursor=pointer]:
+            - /url: /uz/insights/
+            - generic [ref=e78]: ◇
+            - generic [ref=e79]: Tahlil
+        - listitem [ref=e80]:
+          - link "Profil" [ref=e81] [cursor=pointer]:
+            - /url: /uz/profile/
+            - generic [ref=e82]: ◉
+            - generic [ref=e83]: Profil
+  - alert [ref=e84]

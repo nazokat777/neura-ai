@@ -1,0 +1,13 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e7]: 1 / 8
+      - generic [ref=e8]:
+        - generic [ref=e9]: Tanishuv
+        - heading "Ismingiz nima?" [level=1] [ref=e10]
+        - textbox "Ismingizni kiriting" [active] [ref=e11]
+      - generic [ref=e12]:
+        - button "← Orqaga" [disabled] [ref=e13]
+        - button "Keyingi" [disabled] [ref=e14]
+      - paragraph [ref=e15]: Bu javoblar faqat tavsiyalarni shaxsiylashtirish uchun. Tibbiy tashxis emas, ma'lumot qurilmangizda saqlanadi.
+  - alert [ref=e16]

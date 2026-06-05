@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Miyaga sayohat
+      - generic [ref=e5]: 01 / 07
+      - heading "O'zingizni taniysizmi?" [level=1] [ref=e6]
+      - button "Keyingi →" [ref=e15] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e21] [cursor=pointer]:
+    - img [ref=e22]
+  - alert [ref=e25]

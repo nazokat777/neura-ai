@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Stroop testi" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Stroop testi
+      - button "Ovozni o‘chirish" [pressed] [ref=e7] [cursor=pointer]: ♪
+    - generic [ref=e9]:
+      - text: Qanday o'ynaladi
+      - heading "Stroop testi" [level=2] [ref=e10]
+      - paragraph [ref=e11]: Harf qaysi rangда yozilganiga ahamiyat bermang. SO'Z NIMA deyilgan bo'lsa (ma'nosi), o'sha rangni tanlang. Tez va to'g'ri bo'ling.
+      - paragraph [ref=e12]:
+        - generic [ref=e13]: ♥♥♥
+        - text: 3 joningiz bor — 3 marta xato qilsangiz o'yin tugaydi
+      - button "Tushundim, boshlash" [ref=e14] [cursor=pointer]
+  - alert [ref=e15]

@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Natija
+      - heading "Xotira matritsasi" [level=1] [ref=e5]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Bosqich
+          - paragraph [ref=e10]: "9"
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - text: ↑ 28%
+            - generic [ref=e13]: o'tgan haftadan
+          - img [ref=e14]
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Ball
+          - paragraph [ref=e19]: 2 480
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: Maks. kombo
+          - paragraph [ref=e22]: ×14
+      - generic [ref=e23]:
+        - generic [ref=e24]: ◈
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: Gippokamp
+          - paragraph [ref=e27]: Xotira shakllanishi mashq qilindi
+      - generic [ref=e28]:
+        - button "Davom etish →" [ref=e29] [cursor=pointer]
+        - button "Bosh sahifa" [ref=e30] [cursor=pointer]
+      - paragraph [ref=e31]: Faqat real o'lchangan natija. Soxta ball yo'q.
+  - alert [ref=e32]

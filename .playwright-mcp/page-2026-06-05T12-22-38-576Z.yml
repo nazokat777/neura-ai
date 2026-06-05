@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Orqaga" [ref=e4] [cursor=pointer]:
+        - /url: /uz/
+      - heading "Profil" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: Profil
+    - generic [ref=e7]:
+      - generic [ref=e8]: Kognitiv profil
+      - heading "Sizning profilingiz" [level=2] [ref=e9]
+    - generic [ref=e11]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: "0"
+        - generic [ref=e15]: Sinaps faolligi
+      - paragraph [ref=e16]: Har mintaqa shu mashqning oxirgi natijasidan yonadi. Sinaps faolligi — jami o'ynagan raundlaringiz (vizual metafora, tibbiy da'vo emas).
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: O'lchangan domenlar
+        - generic [ref=e21]: 00 / 05
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e26]: Diqqat
+          - paragraph [ref=e27]: —
+          - generic [ref=e29]: Hali o'lchanmagan
+        - generic [ref=e30]:
+          - generic [ref=e33]: Xotira
+          - paragraph [ref=e34]: —
+          - generic [ref=e36]: Hali o'lchanmagan
+        - generic [ref=e37]:
+          - generic [ref=e40]: Tezlik
+          - paragraph [ref=e41]: —
+          - generic [ref=e43]: Hali o'lchanmagan
+        - generic [ref=e44]:
+          - generic [ref=e47]: Tormozlanish
+          - paragraph [ref=e48]: —
+          - generic [ref=e50]: Hali o'lchanmagan
+        - generic [ref=e51]:
+          - generic [ref=e54]: Mantiq
+          - paragraph [ref=e55]: —
+          - generic [ref=e57]: Hali o'lchanmagan
+      - paragraph [ref=e60]: Har domen shu mashqning oxirgi natijasidan hisoblanadi. O'lchanmagan domen markazda turadi — soxta ball emas, hali ma'lumot yo'q.
+    - link "Miyangiz uchun reja Neyro-tavsiyalar →" [ref=e61] [cursor=pointer]:
+      - /url: /uz/recommendations/
+      - generic [ref=e62]:
+        - generic [ref=e63]: Miyangiz uchun reja
+        - generic [ref=e64]: Neyro-tavsiyalar
+      - generic [ref=e65]: →
+    - navigation [ref=e66]:
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - link "Bugun" [ref=e69] [cursor=pointer]:
+            - /url: /uz/
+            - generic [ref=e70]: ◐
+            - generic [ref=e71]: Bugun
+        - listitem [ref=e72]:
+          - link "O'yinlar" [ref=e73] [cursor=pointer]:
+            - /url: /uz/games/
+            - generic [ref=e74]: ◍
+            - generic [ref=e75]: O'yinlar
+        - listitem [ref=e76]:
+          - link "Tahlil" [ref=e77] [cursor=pointer]:
+            - /url: /uz/insights/
+            - generic [ref=e78]: ◇
+            - generic [ref=e79]: Tahlil
+        - listitem [ref=e80]:
+          - link "Profil" [ref=e81] [cursor=pointer]:
+            - /url: /uz/profile/
+            - generic [ref=e82]: ◉
+            - generic [ref=e83]: Profil
+  - button "Open Next.js Dev Tools" [ref=e89] [cursor=pointer]:
+    - img [ref=e90]
