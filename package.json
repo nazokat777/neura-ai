@@ -7,9 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cap:sync": "next build && npx cap sync"
+    "cap:sync": "next build && npx cap sync",
+    "cap:entry": "node scripts/capacitor-entry.mjs",
+    "mobile:build": "next build && node scripts/capacitor-entry.mjs && npx cap sync"
   },
   "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^8.4.0",
+    "@capacitor/core": "^8.4.0",
+    "@capacitor/ios": "^8.4.0",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.6.1",
     "next": "^16.2.6",
