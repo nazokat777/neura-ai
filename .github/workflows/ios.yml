@@ -1,0 +1,19 @@
+name: iOS build (cloud macOS)
+on:
+  workflow_dispatch:
+jobs:
+  build-ios:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npx next build && node scripts/capacitor-entry.mjs
+      - run: npx cap add ios || true
+      - run: npx cap sync ios
+      - run: |
+          cd ios/App
+          xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug -sdk iphonesimulator -derivedDataPath build CODE_SIGNING_ALLOWED=NO build
