@@ -28,6 +28,8 @@
     "time": "Time",
     "skip": "Skip",
     "howToPlay": "How to play",
+    "soundOn": "Turn on sound",
+    "soundOff": "Turn off sound",
     "understood": "Got it, start",
     "livesNote": "You have 3 lives — the game ends after 3 mistakes",
     "quitTitle": "Leave the exercise?",

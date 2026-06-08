@@ -1,8 +1,8 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { paramsForLevel, NAME_POOL, NAME_GENDER, type NamesParams } from './params';
+import { useTranslations, useLocale } from 'next-intl';
+import { paramsForLevel, namePool, type NamesParams } from './params';
 import { useDrill } from '@/drills/engine/useDrill';
 import { useGameFeel } from '@/drills/engine/useGameFeel';
 import ResultPanel from '@/components/ResultPanel';
@@ -26,6 +26,9 @@ interface Person { seed: number; name: string; gender: 'men' | 'women'; }
 export default function NamesGame() {
   const t = useTranslations('names');
   const tg = useTranslations('game');
+  const locale = useLocale();
+  // Joriy tilga mos ism havzasi (ingliz/rus tilida o'zbek ismi chiqmasin).
+  const pool = namePool(locale);
   const { state, ready, summary, finish, nextRound } = useDrill(DRILL_ID);
   const feel = useGameFeel();
 
@@ -46,12 +49,12 @@ export default function NamesGame() {
   const timerRef = useRef<number | null>(null);
 
   const buildOptions = useCallback((person: Person, all: Person[]) => {
-    const others = NAME_POOL.filter(
-      (n) => n !== person.name && !all.some((p) => p.name === n),
-    );
+    const others = pool
+      .map((p) => p.name)
+      .filter((n) => n !== person.name && !all.some((p) => p.name === n));
     const distractors = shuffle(others).slice(0, 3);
     setOptions(shuffle([person.name, ...distractors]));
-  }, []);
+  }, [pool]);
 
   const startRound = useCallback(
     (D: number, fresh = false) => {
@@ -64,12 +67,12 @@ export default function NamesGame() {
         livesRef.current = 3;
         setLives(3);
       }
-      const names = shuffle(NAME_POOL).slice(0, p.count);
+      const picks = shuffle(pool).slice(0, p.count);
       const seeds = shuffle(Array.from({ length: 40 }, (_, i) => i + 1)).slice(0, p.count);
-      const ppl = names.map((name, i) => ({
-        name,
+      const ppl = picks.map((entry, i) => ({
+        name: entry.name,
         seed: seeds[i],
-        gender: NAME_GENDER[name] ?? 'men',
+        gender: entry.gender,
       }));
       setPeople(ppl);
       setOrder(shuffle(ppl.map((_, i) => i)));
@@ -84,7 +87,7 @@ export default function NamesGame() {
         tapRef.current = performance.now();
       }, p.memMs);
     },
-    [feel, buildOptions],
+    [feel, buildOptions, pool],
   );
 
   // quiz boshlanganda birinchi savol variantlari

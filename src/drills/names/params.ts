@@ -14,18 +14,47 @@ export function paramsForLevel(D: number): NamesParams {
   return { count, memMs };
 }
 
-// Ism havzasi (atoqli otlar — tarjima qilinmaydi).
-export const NAME_POOL = [
-  'Aziz', 'Laylo', 'Dilnoza', 'Bekzod', 'Madina', 'Jasur',
-  'Kamola', 'Sardor', 'Nilufar', 'Otabek', 'Zarina', 'Akmal',
-  'Sevara', 'Rustam', 'Gulnora', 'Timur',
-];
+export interface PoolName {
+  name: string;
+  gender: 'men' | 'women';
+}
 
-// Har ism jinsi — yuz (foto) jinsi ismga MOS bo'lsin
-// (o'g'il/qiz farqlanmasligi shikoyati tuzatildi).
-export const NAME_GENDER: Record<string, 'men' | 'women'> = {
-  Aziz: 'men', Laylo: 'women', Dilnoza: 'women', Bekzod: 'men',
-  Madina: 'women', Jasur: 'men', Kamola: 'women', Sardor: 'men',
-  Nilufar: 'women', Otabek: 'men', Zarina: 'women', Akmal: 'men',
-  Sevara: 'women', Rustam: 'men', Gulnora: 'women', Timur: 'men',
+// Ism havzasi HAR TIL uchun alohida — ingliz/rus tilida o'zbek ismlari
+// chiqmasligi uchun (foydalanuvchi til-mosligi shikoyati). Yuz (foto) jinsi
+// ismga mos bo'lsin (men/women).
+export const NAME_POOLS: Record<string, PoolName[]> = {
+  uz: [
+    { name: 'Aziz', gender: 'men' }, { name: 'Laylo', gender: 'women' },
+    { name: 'Dilnoza', gender: 'women' }, { name: 'Bekzod', gender: 'men' },
+    { name: 'Madina', gender: 'women' }, { name: 'Jasur', gender: 'men' },
+    { name: 'Kamola', gender: 'women' }, { name: 'Sardor', gender: 'men' },
+    { name: 'Nilufar', gender: 'women' }, { name: 'Otabek', gender: 'men' },
+    { name: 'Zarina', gender: 'women' }, { name: 'Akmal', gender: 'men' },
+    { name: 'Sevara', gender: 'women' }, { name: 'Rustam', gender: 'men' },
+    { name: 'Gulnora', gender: 'women' }, { name: 'Timur', gender: 'men' },
+  ],
+  en: [
+    { name: 'James', gender: 'men' }, { name: 'Emma', gender: 'women' },
+    { name: 'Oliver', gender: 'men' }, { name: 'Sophia', gender: 'women' },
+    { name: 'William', gender: 'men' }, { name: 'Olivia', gender: 'women' },
+    { name: 'Henry', gender: 'men' }, { name: 'Mia', gender: 'women' },
+    { name: 'Lucas', gender: 'men' }, { name: 'Ava', gender: 'women' },
+    { name: 'Noah', gender: 'men' }, { name: 'Isabella', gender: 'women' },
+    { name: 'Jack', gender: 'men' }, { name: 'Grace', gender: 'women' },
+    { name: 'Leo', gender: 'men' }, { name: 'Chloe', gender: 'women' },
+  ],
+  ru: [
+    { name: 'Иван', gender: 'men' }, { name: 'Анна', gender: 'women' },
+    { name: 'Дмитрий', gender: 'men' }, { name: 'Мария', gender: 'women' },
+    { name: 'Сергей', gender: 'men' }, { name: 'Елена', gender: 'women' },
+    { name: 'Алексей', gender: 'men' }, { name: 'Ольга', gender: 'women' },
+    { name: 'Андрей', gender: 'men' }, { name: 'Наталья', gender: 'women' },
+    { name: 'Максим', gender: 'men' }, { name: 'Татьяна', gender: 'women' },
+    { name: 'Павел', gender: 'men' }, { name: 'Ирина', gender: 'women' },
+    { name: 'Никита', gender: 'men' }, { name: 'Юлия', gender: 'women' },
+  ],
 };
+
+export function namePool(locale: string): PoolName[] {
+  return NAME_POOLS[locale] ?? NAME_POOLS.en;
+}
