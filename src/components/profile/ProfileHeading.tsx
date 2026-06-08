@@ -75,7 +75,10 @@ export default function ProfileHeading({ fallback }: { fallback: string }) {
         style={{
           animationDelay: '80ms',
           fontSize: 'clamp(2.2rem, 9vw, 3rem)',
-          lineHeight: '0.95',
+          // lineHeight 1.18 + pastki padding: "y, g, p" kabi harflar dumi
+          // (descender) truncate overflow'ida kesilmasin.
+          lineHeight: '1.18',
+          paddingBottom: '0.12em',
           letterSpacing: '-0.04em',
         }}
       >
