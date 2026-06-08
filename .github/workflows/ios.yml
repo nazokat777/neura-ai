@@ -13,6 +13,7 @@ jobs:
       - run: npm ci
       - run: npx next build && node scripts/capacitor-entry.mjs
       - run: npx cap add ios || true
+      - run: npx --yes @capacitor/assets generate --ios
       - run: npx cap sync ios
       - run: |
           cd ios/App

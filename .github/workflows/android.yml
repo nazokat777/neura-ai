@@ -17,6 +17,7 @@ jobs:
       - run: npm ci
       - run: npx next build && node scripts/capacitor-entry.mjs
       - run: npx cap add android || true
+      - run: npx --yes @capacitor/assets generate --android
       - run: npx cap sync android
       - run: |
           cd android
