@@ -62,16 +62,13 @@ export default function LanguageGate() {
                 'radial-gradient(circle, rgba(77,141,255,0.40), rgba(176,108,255,0.30) 45%, rgba(6,8,15,0) 70%)',
             }}
           />
-          {/* logo-clean (sof qora fon) + screen blend + radial mask:
-              chegara har qanday holatда fonга butunlay singib yo'qoladi. */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          {/* To'liq NEURA AI logosi (shaffof fon, screen blend → fonга singadi). */}
+          {/* To'liq NEURA AI logosi — yuqori sifatli shaffof WebP (blendsiz,
+              ranglar to'liq va yorqin chiqadi). */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo-cut.png"
+            src="/logo-cut.webp"
             alt="Neura AI"
             className="animate-float-soft relative w-72 max-w-[82vw]"
-            style={{ mixBlendMode: 'screen' }}
           />
         </div>
 

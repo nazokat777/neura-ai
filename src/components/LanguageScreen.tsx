@@ -59,13 +59,12 @@ export default function LanguageScreen() {
                 'radial-gradient(circle, rgba(77,141,255,0.40), rgba(176,108,255,0.30) 45%, rgba(6,8,15,0) 70%)',
             }}
           />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
+          {/* Yuqori sifatli shaffof WebP logo (blendsiz). */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo-cut.png"
+            src="/logo-cut.webp"
             alt="Neura AI"
             className="animate-float-soft relative w-64 max-w-[78vw]"
-            style={{ mixBlendMode: 'screen' }}
           />
         </div>
 
