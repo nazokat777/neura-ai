@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import SoundToggle from '@/components/game/SoundToggle';
@@ -35,6 +35,41 @@ export default function DrillHeader({
     if (active) setConfirm(true);
     else router.push(backHref);
   }
+
+  // Eng so'nggi qiymatlarni listener ichida o'qish uchun reflar.
+  const activeRef = useRef(active);
+  activeRef.current = active;
+  const confirmRef = useRef(confirm);
+  confirmRef.current = confirm;
+  const backHrefRef = useRef(backHref);
+  backHrefRef.current = backHref;
+
+  // Android telefon "orqaga" tugmasi (Capacitor native) — ekрandagi
+  // tugma bilan bir xil mantiq: faol mashqda tasdiq so'raydi, modal ochiq
+  // bo'lsa yopadi, aks holda qaytadi. Faqat native ilovada ishlaydi.
+  useEffect(() => {
+    let remove: (() => void) | undefined;
+    (async () => {
+      try {
+        const { Capacitor } = await import('@capacitor/core');
+        if (!Capacitor.isNativePlatform()) return;
+        const { App } = await import('@capacitor/app');
+        const handle = await App.addListener('backButton', () => {
+          if (confirmRef.current) {
+            setConfirm(false);
+          } else if (activeRef.current) {
+            setConfirm(true);
+          } else {
+            router.push(backHrefRef.current);
+          }
+        });
+        remove = () => handle.remove();
+      } catch {
+        /* web/PWA — native plagin yo'q, e'tibor bermaymiz */
+      }
+    })();
+    return () => remove?.();
+  }, [router]);
 
   return (
     <>
