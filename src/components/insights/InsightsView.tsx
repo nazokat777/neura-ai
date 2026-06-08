@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation';
 import { loadLast, loadHistory, type HistoryPoint } from '@/lib/storage';
 import BottomNav from '@/components/nav/BottomNav';
 import BackButton from '@/components/nav/BackButton';
+import LangLink from '@/components/nav/LangLink';
 import StreakBadge from '@/components/game/StreakBadge';
 import Sparkline from '@/components/insights/Sparkline';
 
@@ -77,6 +78,7 @@ export default function InsightsView() {
             {t('appName')}
           </span>
         </div>
+        <LangLink />
       </header>
 
       <section className="mt-7 flex flex-col gap-1">
@@ -155,9 +157,15 @@ export default function InsightsView() {
                         {delta}
                       </span>
                     )}
-                    <span className="num text-[12px] tabular-nums text-muted">
-                      {mounted && v != null ? `${v}%` : '—'}
-                    </span>
+                    {mounted && v != null ? (
+                      <span className="num text-[12px] tabular-nums text-muted">
+                        {v}%
+                      </span>
+                    ) : (
+                      <span className="text-[11px] italic text-muted/70">
+                        {t('notMeasured')}
+                      </span>
+                    )}
                   </div>
                 </div>
                 <div className="h-2 overflow-hidden rounded-full bg-surface2">

@@ -65,11 +65,11 @@ export default function LanguageGate() {
           {/* logo-clean (sof qora fon) + screen blend + radial mask:
               chegara har qanday holatда fonга butunlay singib yo'qoladi. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          {/* logo-cut: qora fon SHAFFOF + screen blend → hero rasmlari (memory/
-              focus) kabi nurli, fonга uzviy singadi, chegara yo'q. */}
+          {/* To'liq NEURA AI logosi (shaffof fon, screen blend → fonга singadi). */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo-cut.png"
-            alt="Neyron AI"
+            alt="Neura AI"
             className="animate-float-soft relative w-72 max-w-[82vw]"
             style={{ mixBlendMode: 'screen' }}
           />

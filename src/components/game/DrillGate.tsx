@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { unlockAudio } from '@/lib/feedback';
+import { setDrillActive } from '@/lib/drillSession';
 
 // O'yin boshlanishidan oldin QOIDA popup'i. Foydalanuvchi "Tushundim"
 // bosmaguncha o'yin (children) YUKLANMAYDI — shu bois o'yin mexanikasi
@@ -23,6 +24,12 @@ export default function DrillGate({
 }) {
   const tc = useTranslations('common');
   const [started, setStarted] = useState(false);
+
+  // O'yin boshlangach faol deb belgilaymiz; sahifa tark etilganda o'chiramiz.
+  useEffect(() => {
+    setDrillActive(started);
+    return () => setDrillActive(false);
+  }, [started]);
 
   if (started) return <>{children}</>;
 

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { loadHistory, loadStreak, clearAll, type HistoryPoint } from '@/lib/storage';
 import { CATALOG } from '@/lib/catalog';
 
@@ -39,6 +40,7 @@ function summarize(points: HistoryPoint[], sinceMs: number, nowMs: number): Span
 
 export default function AccountView() {
   const t = useTranslations('account');
+  const tp = useTranslations('privacy');
   const locale = useLocale();
   const [weekly, setWeekly] = useState<Span | null>(null);
   const [monthly, setMonthly] = useState<Span | null>(null);
@@ -159,6 +161,13 @@ export default function AccountView() {
         <span aria-hidden className="mt-[7px] inline-block h-1 w-6 shrink-0 rounded-full bg-accent" />
         <p className="text-[12px] leading-relaxed text-muted">{t('honest')}</p>
       </div>
+
+      <Link
+        href="/privacy"
+        className="text-[12px] text-muted underline underline-offset-2 active:scale-95"
+      >
+        {tp('title')}
+      </Link>
     </div>
   );
 }

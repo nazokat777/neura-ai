@@ -11,7 +11,7 @@ const config: Config = {
         surface2: '#141A26',
         line: '#1E2633',
         ink: '#ECEFF7',
-        muted: '#8A93A6',
+        muted: '#9CA7BC',
         // Brend urg'u — logo ranglari: elektr ko'k (chap) + siyohrang (o'ng)
         accent: '#4D8DFF',
         'accent-dim': '#2D5BD0',

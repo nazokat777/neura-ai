@@ -9,6 +9,7 @@ import { loadLast, loadHistory } from '@/lib/storage';
 import SectionVideo from '@/components/cinematic/SectionVideo';
 import HeroArt from '@/components/HeroArt';
 import BottomNav from '@/components/nav/BottomNav';
+import LangLink from '@/components/nav/LangLink';
 
 interface GameItem {
   id: string;
@@ -103,6 +104,8 @@ export default function CategoryView({
         >
           ←
         </Link>
+
+        <LangLink className="absolute right-5 top-[max(1.5rem,env(safe-area-inset-top))] z-10" />
 
         <h1
           className="grad-anim relative z-10 font-semibold"

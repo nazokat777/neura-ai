@@ -6,7 +6,7 @@ import SectionVideo from '@/components/cinematic/SectionVideo';
 import FeaturedGame from '@/components/games/FeaturedGame';
 import BottomNav from '@/components/nav/BottomNav';
 import BackButton from '@/components/nav/BackButton';
-import LocaleSwitcher from '@/components/LocaleSwitcher';
+import LangLink from '@/components/nav/LangLink';
 import OnboardingGate from '@/components/OnboardingGate';
 
 export function generateStaticParams() {
@@ -39,7 +39,7 @@ export default async function GamesPage({
             {tApp('name')}
           </span>
         </div>
-        <LocaleSwitcher />
+        <LangLink />
       </header>
 
       <section className="mt-8 flex flex-col gap-2">

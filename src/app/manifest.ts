@@ -6,9 +6,9 @@ export const dynamic = 'force-static';
 // PWA manifest — desktop/mobil brauzerda o'rnatiladigan ilova.
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Neyron AI',
-    short_name: 'Neyron',
-    description: 'Improve Yourself Every Day — cognitive training',
+    name: 'Neura AI — Brain Training',
+    short_name: 'Neura AI',
+    description: 'Neura AI — brain training games: memory, attention, logic, speed, focus. Improve yourself every day.',
     start_url: '/en/',
     scope: '/',
     display: 'standalone',

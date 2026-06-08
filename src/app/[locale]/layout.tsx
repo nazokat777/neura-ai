@@ -25,8 +25,30 @@ const body = Hanken_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Neyron AI',
-  description: 'Improve Yourself Every Day',
+  title: {
+    default: 'Neura AI — Brain Training Games',
+    template: '%s · Neura AI',
+  },
+  description:
+    'Neura AI — brain training app: memory, attention, logic, speed & focus games. Miya mashqlari ilovasi. Improve yourself every day.',
+  applicationName: 'Neura AI',
+  keywords: [
+    'Neura AI', 'brain training', 'miya mashqlari', 'тренировка мозга',
+    'memory games', 'attention', 'logic', 'cognitive training', 'neyron ai',
+  ],
+  openGraph: {
+    title: 'Neura AI — Brain Training Games',
+    description: 'Train your brain: memory, attention, logic, speed & focus. Miya mashqlari.',
+    siteName: 'Neura AI',
+    type: 'website',
+    images: [{ url: '/logo-mark.png', width: 512, height: 512, alt: 'Neura AI' }],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Neura AI — Brain Training Games',
+    description: 'Train your brain: memory, attention, logic, speed & focus.',
+    images: ['/logo-mark.png'],
+  },
 };
 
 export const viewport: Viewport = {

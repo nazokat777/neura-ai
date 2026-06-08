@@ -2,7 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
-import LocaleSwitcher from '@/components/LocaleSwitcher';
+import LangLink from '@/components/nav/LangLink';
 import CinematicBackground from '@/components/CinematicBackground';
 import OnboardingGate from '@/components/OnboardingGate';
 import Greeting from '@/components/Greeting';
@@ -28,7 +28,7 @@ export default async function HomePage({
   const totalGames = CATALOG.reduce((s, c) => s + c.games.length, 0);
 
   return (
-    <main className="relative mx-auto flex min-h-dvh w-full max-w-md flex-col px-5 pb-28 pt-[max(1.5rem,env(safe-area-inset-top))]">
+    <main className="relative mx-auto flex min-h-dvh w-full max-w-md flex-col px-5 pb-28 pt-[max(1.5rem,env(safe-area-inset-top))] lg:max-w-5xl lg:px-10">
       <OnboardingGate />
 
       {/* Cinematic tirik fon — neyron-zarra maydoni (matnga tegmaydi) */}
@@ -67,19 +67,15 @@ export default async function HomePage({
         </div>
         <div className="flex items-center gap-3">
           <StreakBadge compact />
-          {/* Til tanlash sahifasi — istalgan vaqtda qayta kirish */}
-          <Link
-            href="/language"
-            aria-label="Til / Язык / Language"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-line/60 bg-bg/40 text-[15px] text-ink backdrop-blur-sm active:scale-95"
-          >
-            🌐
-          </Link>
-          <LocaleSwitcher />
+          {/* Til tanlash sahifasi — barcha sahifalarda bir xil (izchillik) */}
+          <LangLink />
         </div>
       </header>
 
-      <section className="mt-10 flex flex-col gap-4">
+      {/* Desktopда (lg+) ikki ustun: chap — qahramon matn, o'ng — ro'yxat.
+          Mobilда oddiy vertikal oqim (mobil-first dizayn buzilmaydi). */}
+      <div className="lg:grid lg:grid-cols-[1fr_1.05fr] lg:items-start lg:gap-x-16">
+      <section className="mt-10 flex flex-col gap-4 lg:sticky lg:top-10">
         <Greeting />
         <span
           className="animate-rise text-[11px] font-semibold uppercase tracking-[0.18em] text-accent"
@@ -108,7 +104,7 @@ export default async function HomePage({
         </p>
       </section>
 
-      <section className="mt-12 flex flex-col gap-4">
+      <section className="mt-12 flex flex-col gap-4 lg:mt-10">
         <div className="flex items-baseline justify-between">
           <h2 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted">
             {t('explore')}
@@ -164,6 +160,7 @@ export default async function HomePage({
           })}
         </ul>
       </section>
+      </div>
 
       <footer className="mt-auto pt-10">
         <div className="flex items-start gap-3">

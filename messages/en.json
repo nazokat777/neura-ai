@@ -1,4 +1,18 @@
 {
+  "privacy": {
+    "kicker": "Legal",
+    "title": "Privacy Policy",
+    "updated": "Last updated: June 8, 2026",
+    "intro": "Neura AI respects your privacy. This app does not send your data to any server — everything is stored only on this device.",
+    "sections": [
+      { "h": "What data is collected", "p": "Your name, questionnaire answers, and game results are stored only in your device's browser storage (localStorage). This data is never sent to us or any third party." },
+      { "h": "No account", "p": "No registration, email, or password is required. There is no cloud storage — your data never leaves your device." },
+      { "h": "External services", "p": "For a memory game, random face photos (randomuser.me) and fonts (Google Fonts) are loaded. When opened inside Telegram, the Telegram WebApp SDK runs. These requests may receive your IP address as part of normal internet operation." },
+      { "h": "No tracking or ads", "p": "The app contains no analytics, advertising, or third-party trackers." },
+      { "h": "Deleting your data", "p": "The \"Delete account\" button on the profile page instantly and permanently removes all your local data." },
+      { "h": "Contact", "p": "Questions: abduazizovanazokat@gmail.com" }
+    ]
+  },
   "common": {
     "start": "Start",
     "next": "Next",
@@ -15,7 +29,11 @@
     "skip": "Skip",
     "howToPlay": "How to play",
     "understood": "Got it, start",
-    "livesNote": "You have 3 lives — the game ends after 3 mistakes"
+    "livesNote": "You have 3 lives — the game ends after 3 mistakes",
+    "quitTitle": "Leave the exercise?",
+    "quitBody": "The current round won't be saved. Completed rounds are kept.",
+    "quitConfirm": "Leave",
+    "quitStay": "Stay"
   },
   "rules": {
     "schulte": "Find the numbers in order, starting from 1. A found number vanishes and a bigger one appears. Find as many as you can before time runs out.",
@@ -40,7 +58,7 @@
     "figureEight": "Follow the dot with your eyes, drawing a figure 8 in the air — eye exercise (no cognitive score)."
   },
   "app": {
-    "name": "Neyron AI",
+    "name": "Neura AI",
     "tagline": "Improve Yourself Every Day"
   },
   "intro": {
@@ -618,13 +636,14 @@
     "sinceFirst": "since start"
   },
   "insights": {
-    "appName": "Neyron AI",
+    "appName": "Neura AI",
     "kicker": "Results analysis",
     "title": "Your cognitive state",
-    "indexLabel": "Neyron Index",
+    "indexLabel": "Neura Index",
     "indexHonest": "{n}/{total} domains measured. This is a score relative to yourself, not a population IQ.",
     "noData": "No data yet. Play some drills to reveal your profile.",
     "profile": "Cognitive profile",
+    "notMeasured": "not measured",
     "strength": "Your strength",
     "strengthBody": "This domain scored highest in your last measurement. Keep going — a strength is a foundation.",
     "recommended": "Recommended",

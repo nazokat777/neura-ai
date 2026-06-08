@@ -60,9 +60,10 @@ export default function LanguageScreen() {
             }}
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo-cut.png"
-            alt="Neyron AI"
+            alt="Neura AI"
             className="animate-float-soft relative w-64 max-w-[78vw]"
             style={{ mixBlendMode: 'screen' }}
           />

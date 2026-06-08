@@ -1,4 +1,18 @@
 {
+  "privacy": {
+    "kicker": "Huquqiy",
+    "title": "Maxfiylik siyosati",
+    "updated": "Oxirgi yangilanish: 2026-yil 8-iyun",
+    "intro": "Neura AI sizning maxfiyligingizni hurmat qiladi. Bu ilova maʼlumotlaringizni hech qanday serverga yubormaydi — hammasi faqat shu qurilmada saqlanadi.",
+    "sections": [
+      { "h": "Qanday maʼlumot to'planadi", "p": "Ismingiz, anketa javoblaringiz va o'yin natijalaringiz faqat qurilmangiz brauzeri xotirasida (localStorage) saqlanadi. Bu maʼlumotlar bizga yoki uchinchi tomonga yuborilmaydi." },
+      { "h": "Akkaunt yo'q", "p": "Ro'yxatdan o'tish, elektron pochta yoki parol talab qilinmaydi. Bulutli saqlash yo'q — maʼlumotlaringiz qurilmangizni tark etmaydi." },
+      { "h": "Tashqi xizmatlar", "p": "Yodlash o'yini uchun tasodifiy yuz rasmlari (randomuser.me) va shriftlar (Google Fonts) yuklanadi. Telegram ichida ochilsa, Telegram WebApp SDK ishlaydi. Bu so'rovlar oddiy internet ishlashida IP manzilingizni olishi mumkin." },
+      { "h": "Kuzatuv va reklama yo'q", "p": "Ilovada hech qanday tahlil tizimi (analytics), reklama yoki uchinchi tomon kuzatuvchilari yo'q." },
+      { "h": "Maʼlumotni o'chirish", "p": "Profil sahifasidagi \"Akkauntni o'chirish\" tugmasi barcha lokal maʼlumotlaringizni darhol va butunlay o'chiradi." },
+      { "h": "Bog'lanish", "p": "Savollar bo'lsa: abduazizovanazokat@gmail.com" }
+    ]
+  },
   "common": {
     "start": "Boshlash",
     "next": "Keyingi",
@@ -16,7 +30,11 @@
     "howToPlay": "Qanday o'ynaladi",
     "understood": "Tushundim, boshlash",
     "scrollDown": "Pastga suring",
-    "livesNote": "3 joningiz bor — 3 marta xato qilsangiz o'yin tugaydi"
+    "livesNote": "3 joningiz bor — 3 marta xato qilsangiz o'yin tugaydi",
+    "quitTitle": "Mashqdan chiqasizmi?",
+    "quitBody": "Joriy raund saqlanmaydi. Tugatgan raundlaringiz saqlangan.",
+    "quitConfirm": "Chiqish",
+    "quitStay": "Davom etaman"
   },
   "rules": {
     "schulte": "Raqamlarni 1 dan boshlab tartib bilan toping. Topilgan raqam yo'qolib, o'rniga kattaroq chiqadi. Vaqt tugaguncha imkon qadar ko'p toping.",
@@ -41,7 +59,7 @@
     "figureEight": "Nuqtani ko'zingiz bilan kuzatib, havoda 8 raqamini chizing — ko'z mashqi (kognitiv ball yo'q)."
   },
   "app": {
-    "name": "Neyron AI",
+    "name": "Neura AI",
     "tagline": "Har kuni o'zingizni yaxshilang"
   },
   "intro": {
@@ -619,13 +637,14 @@
     "sinceFirst": "birinchidan"
   },
   "insights": {
-    "appName": "Neyron AI",
+    "appName": "Neura AI",
     "kicker": "Natijalar tahlili",
     "title": "Kognitiv holatingiz",
-    "indexLabel": "Neyron Indeks",
+    "indexLabel": "Neura Indeks",
     "indexHonest": "{n}/{total} domen o'lchandi. Bu — o'zingizga nisbatan ko'rsatkich, populyatsiya IQ'si emas.",
     "noData": "Hali ma'lumot yo'q. Profilingizni ko'rsatish uchun avval mashqlardan o'ynang.",
     "profile": "Kognitiv profil",
+    "notMeasured": "o'lchanmagan",
     "strength": "Kuchli tomoningiz",
     "strengthBody": "Bu domen oxirgi o'lchovda eng yuqori natija berdi. Davom eting — kuchli tomon poydevor.",
     "recommended": "Tavsiya etilgan",
