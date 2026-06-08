@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   description:
     'Neura AI — brain training app: memory, attention, logic, speed & focus games. Miya mashqlari ilovasi. Improve yourself every day.',
   applicationName: 'Neura AI',
+  verification: {
+    google: '-Demh67kRvxdORN2dqbO7QcyFOOiASEHNIy-qE6Zvok',
+  },
   keywords: [
     'Neura AI', 'brain training', 'miya mashqlari', 'тренировка мозга',
     'memory games', 'attention', 'logic', 'cognitive training', 'neyron ai',
