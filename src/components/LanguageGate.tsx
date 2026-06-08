@@ -69,7 +69,6 @@ export default function LanguageGate() {
             src="/logo-cut.webp"
             alt="Neura AI"
             className="animate-float-soft relative w-72 max-w-[82vw]"
-            style={{ mixBlendMode: 'screen' }}
           />
         </div>
 

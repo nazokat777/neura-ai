@@ -65,7 +65,6 @@ export default function LanguageScreen() {
             src="/logo-cut.webp"
             alt="Neura AI"
             className="animate-float-soft relative w-64 max-w-[78vw]"
-            style={{ mixBlendMode: 'screen' }}
           />
         </div>
 
