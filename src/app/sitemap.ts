@@ -6,7 +6,7 @@ import { CATALOG } from '@/lib/catalog';
 export const dynamic = 'force-static';
 
 // Jonli URL. Keyinchalik custom domen (neura.app) olinsa — shu yerni o'zgartiring.
-const BASE = 'https://neura-ai.vercel.app';
+const BASE = 'https://neyron-ai.vercel.app';
 
 // Google/qidiruv tizimlari uchun sayt xaritasi — barcha asosiy sahifalar,
 // har til (uz/ru/en) bo'yicha. Mashqlar (drills) flow sahifalari emas, shu bois

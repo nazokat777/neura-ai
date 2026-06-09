@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next';
 // Statik eksport (output: 'export') uchun majburiy.
 export const dynamic = 'force-static';
 
-const BASE = 'https://neura-ai.vercel.app';
+const BASE = 'https://neyron-ai.vercel.app';
 
 // Qidiruv robotlari uchun: hammasiga ruxsat + sitemap manzili.
 export default function robots(): MetadataRoute.Robots {
